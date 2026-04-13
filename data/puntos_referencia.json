@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Salón del Reino", 
+        "lat": 5.087537003998918, 
+        "lon": -75.48755647048758, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Jardín infantil de san sebastián", 
+        "lat": 5.086086903082432, 
+        "lon": -75.49049347646822, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Colegio Bosques del norte", 
+        "lat": 5.083249595059073, 
+        "lon": -75.48877765232507, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa de la justicia", 
+        "lat": 5.083828171153257, 
+        "lon": -75.48999103353576, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa de la hermana Lina", 
+        "lat": 5.08475201553415, 
+        "lon": -75.49005837243199, 
+        "icon": "info-sign", 
+        "color": "blue"
+    }
+]

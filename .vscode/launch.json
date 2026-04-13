@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Streamlit Debug",
+      "type": "python",
+      "request": "launch",
+      "python": "/home/danny/miniconda3/envs/territoryenv/bin/python",
+      "module": "streamlit",
+      "args": ["run", "app.py"],
+      "justMyCode": false,
+      "subProcess": true,
+      "console": "integratedTerminal"
+    }
+  ]
+}

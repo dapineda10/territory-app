@@ -1,0 +1,537 @@
+[
+  {
+    "zona": "13",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:03:12.658069"
+  },
+  {
+    "zona": "14",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:03:15.941084"
+  },
+  {
+    "zona": "24",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:06:32.809094"
+  },
+  {
+    "zona": "22",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:06:36.859847"
+  },
+  {
+    "zona": "23",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:06:39.981302"
+  },
+  {
+    "zona": "20",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:08.288651"
+  },
+  {
+    "zona": "19",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:11.053747"
+  },
+  {
+    "zona": "15",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:13.867151"
+  },
+  {
+    "zona": "16",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:16.443869"
+  },
+  {
+    "zona": "17",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:18.940102"
+  },
+  {
+    "zona": "18",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:21.470279"
+  },
+  {
+    "zona": "21",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:24.274394"
+  },
+  {
+    "zona": "25",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:27.255351"
+  },
+  {
+    "zona": "30",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:36.008763"
+  },
+  {
+    "zona": "31",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:38.965446"
+  },
+  {
+    "zona": "32",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:41.907387"
+  },
+  {
+    "zona": "40",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:07:57.100685"
+  },
+  {
+    "zona": "39",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:08:00.083121"
+  },
+  {
+    "zona": "41",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:08:02.650099"
+  },
+  {
+    "zona": "42",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:08:05.118593"
+  },
+  {
+    "zona": "302",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:05.910327"
+  },
+  {
+    "zona": "301",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:15.885172"
+  },
+  {
+    "zona": "304",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:24.897679"
+  },
+  {
+    "zona": "300",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:28.405336"
+  },
+  {
+    "zona": "12",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:32.004545"
+  },
+  {
+    "zona": "11",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:34.596513"
+  },
+  {
+    "zona": "85",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:21:51.182891"
+  },
+  {
+    "zona": "86",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:22:41.532384"
+  },
+  {
+    "zona": "300",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:23:43.172587"
+  },
+  {
+    "zona": "9",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:23:46.237825"
+  },
+  {
+    "zona": "10",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:23:48.086461"
+  },
+  {
+    "zona": "8",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:23:50.185898"
+  },
+  {
+    "zona": "7",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:23:52.118783"
+  },
+  {
+    "zona": "6",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:23:54.936802"
+  },
+  {
+    "zona": "4",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:24:22.769358"
+  },
+  {
+    "zona": "300",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:24:30.905104"
+  },
+  {
+    "zona": "5",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:24:34.893810"
+  },
+  {
+    "zona": "5",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:24:42.613563"
+  },
+  {
+    "zona": "5",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:26:08.358704"
+  },
+  {
+    "zona": "3",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:26:12.389617"
+  },
+  {
+    "zona": "87",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:26:21.187522"
+  },
+  {
+    "zona": "300",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:27:16.210990"
+  },
+  {
+    "zona": "29",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:27:22.693966"
+  },
+  {
+    "zona": "28",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:27:26.191870"
+  },
+  {
+    "zona": "26",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:27:29.345298"
+  },
+  {
+    "zona": "91",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:27:37.401446"
+  },
+  {
+    "zona": "90",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:27:39.979873"
+  },
+  {
+    "zona": "89",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:27:42.311430"
+  },
+  {
+    "zona": "115",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:33:32.311381"
+  },
+  {
+    "zona": "2",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:33:40.378835"
+  },
+  {
+    "zona": "208",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:33:43.980959"
+  },
+  {
+    "zona": "115",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:34:45.606366"
+  },
+  {
+    "zona": "3",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:34:48.700577"
+  },
+  {
+    "zona": "5",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:34:51.504216"
+  },
+  {
+    "zona": "4",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:34:54.394517"
+  },
+  {
+    "zona": "3",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:34:57.145590"
+  },
+  {
+    "zona": "2",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:00.483989"
+  },
+  {
+    "zona": "4",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:35:03.259549"
+  },
+  {
+    "zona": "4",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:06.932315"
+  },
+  {
+    "zona": "3",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:16.877827"
+  },
+  {
+    "zona": "208",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:21.183447"
+  },
+  {
+    "zona": "6",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:24.746399"
+  },
+  {
+    "zona": "91",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:28.395597"
+  },
+  {
+    "zona": "90",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:31.010688"
+  },
+  {
+    "zona": "89",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:35:33.669467"
+  },
+  {
+    "zona": "7",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:03.994795"
+  },
+  {
+    "zona": "9",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:18.253258"
+  },
+  {
+    "zona": "8",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:22.721234"
+  },
+  {
+    "zona": "10",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:26.522219"
+  },
+  {
+    "zona": "11",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:29.158590"
+  },
+  {
+    "zona": "87",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:33.857873"
+  },
+  {
+    "zona": "29",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:36:53.971209"
+  },
+  {
+    "zona": "304",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:39:32.165808"
+  },
+  {
+    "zona": "302",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:39:36.228465"
+  },
+  {
+    "zona": "301",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:39:39.675049"
+  },
+  {
+    "zona": "14",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:43:14.797510"
+  },
+  {
+    "zona": "12",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:43:18.646151"
+  },
+  {
+    "zona": "39",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:45:41.088425"
+  },
+  {
+    "zona": "15",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:45:44.416426"
+  },
+  {
+    "zona": "13",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:45:48.553246"
+  },
+  {
+    "zona": "18",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:16.768520"
+  },
+  {
+    "zona": "19",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:20.185494"
+  },
+  {
+    "zona": "17",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:23.166285"
+  },
+  {
+    "zona": "16",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:26.140814"
+  },
+  {
+    "zona": "85",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:30.738819"
+  },
+  {
+    "zona": "86",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:33.533611"
+  },
+  {
+    "zona": "21",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:36.939498"
+  },
+  {
+    "zona": "20",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:45.928116"
+  },
+  {
+    "zona": "40",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:49.511335"
+  },
+  {
+    "zona": "42",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:52.679851"
+  },
+  {
+    "zona": "41",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:48:56.643027"
+  },
+  {
+    "zona": "32",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:49:01.022221"
+  },
+  {
+    "zona": "31",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:49:03.884639"
+  },
+  {
+    "zona": "30",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:49:07.686553"
+  },
+  {
+    "zona": "23",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:50:20.017447"
+  },
+  {
+    "zona": "22",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:50:22.929551"
+  },
+  {
+    "zona": "24",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:50:26.877334"
+  },
+  {
+    "zona": "25",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:50:29.969490"
+  },
+  {
+    "zona": "26",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:50:35.509850"
+  },
+  {
+    "zona": "28",
+    "estado": "pendiente",
+    "fecha": "2026-04-13T00:50:38.667090"
+  },
+  {
+    "zona": "88",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:57:33.985271"
+  },
+  {
+    "zona": "86",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:57:37.474028"
+  },
+  {
+    "zona": "87",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:57:40.798851"
+  },
+  {
+    "zona": "115",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:57:53.541105"
+  },
+  {
+    "zona": "209",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:58:04.293136"
+  },
+  {
+    "zona": "3",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:58:07.756875"
+  },
+  {
+    "zona": "300",
+    "estado": "completado",
+    "fecha": "2026-04-13T00:58:54.767118"
+  }
+]
