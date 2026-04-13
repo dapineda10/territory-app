@@ -245,6 +245,17 @@ def mostrar_mapa():
         del st.session_state["_show_success"]
 
 
+    # -------------------------
+    # BOTÓN DE RESET
+    # -------------------------
+    if st.button("🔄 Reset: poner todo PENDIENTE", type="secondary"):
+        for h in hijos:
+            repo.guardar(str(h["id"]), "pendiente")
+        st.session_state["_force_estado_reload"] = True
+        st.session_state["_show_success"] = "Todos los sectores fueron puestos en PENDIENTE."
+        st.rerun()
+
+
 # =========================
 # ENTRY
 # =========================
