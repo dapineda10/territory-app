@@ -871,12 +871,13 @@
         ],
         "type": "LineString"
       },
-      "id": 34
+      "id": 21
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 200
+        "codigo_manzana": 200,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -1145,12 +1146,13 @@
           ]
         ]
       },
-      "id": 24
+      "id": 22
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 201
+        "codigo_manzana": 201,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -1419,12 +1421,13 @@
           ]
         ]
       },
-      "id": 25
+      "id": 23
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 202
+        "codigo_manzana": 202,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -1693,12 +1696,13 @@
           ]
         ]
       },
-      "id": 26
+      "id": 24
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 203
+        "codigo_manzana": 203,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -1967,12 +1971,13 @@
           ]
         ]
       },
-      "id": 27
+      "id": 25
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 203
+        "codigo_manzana": 203,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -2241,12 +2246,13 @@
           ]
         ]
       },
-      "id": 28
+      "id": 26
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 204
+        "codigo_manzana": 204,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -2515,12 +2521,13 @@
           ]
         ]
       },
-      "id": 29
+      "id": 27
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 205
+        "codigo_manzana": 205,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -2789,12 +2796,13 @@
           ]
         ]
       },
-      "id": 30
+      "id": 28
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 206
+        "codigo_manzana": 206,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -3063,12 +3071,13 @@
           ]
         ]
       },
-      "id": 31
+      "id": 29
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 208
+        "codigo_manzana": 208,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -3337,12 +3346,13 @@
           ]
         ]
       },
-      "id": 32
+      "id": 30
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 209
+        "codigo_manzana": 209,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -3611,12 +3621,13 @@
           ]
         ]
       },
-      "id": 33
+      "id": 31
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 1
+        "codigo_manzana": 1,
+        "sector": "via_antigua_guamo"
       },
       "geometry": {
         "type": "Polygon",
@@ -3885,7 +3896,7 @@
           ]
         ]
       },
-      "id": 34
+      "id": 32
     },
     {
       "type": "Feature",
@@ -35453,7 +35464,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 115
+        "codigo_manzana": 115,
+        "sector": "via_antigua_guamo"
       },
       "geometry": {
         "type": "Polygon",
@@ -35722,12 +35734,13 @@
           ]
         ]
       },
-      "id": 156
+      "id": 154
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 116
+        "codigo_manzana": 116,
+        "sector": "via_antigua_guamo"
       },
       "geometry": {
         "type": "Polygon",
@@ -35995,7 +36008,8 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 155
     },
     {
       "type": "Feature",
