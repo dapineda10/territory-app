@@ -162,3 +162,4 @@ whitebox==2.3.6
 whiteboxgui==2.3.0
 widgetsnbextension==4.0.15
 xyzservices==2026.3.0
+bcrypt>=4.0
