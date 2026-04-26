@@ -1,0 +1,12 @@
+name: territoryenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit==1.56.0
+      - folium==0.20.0
+      - streamlit-folium==0.27.1
+      - shapely==2.1.2
