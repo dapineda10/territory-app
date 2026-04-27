@@ -1,0 +1,8 @@
+.venv
+.git
+__pycache__
+*.pyc
+*.pyo
+.streamlit/secrets.toml
+data/auth.db
+data/progreso.json
