@@ -396,7 +396,7 @@
         ],
         "type": "LineString"
       },
-      "id": 12
+      "id": 9
     },
     {
       "type": "Feature",
@@ -676,7 +676,7 @@
         ],
         "type": "LineString"
       },
-      "id": 28
+      "id": 16
     },
     {
       "type": "Feature",
@@ -756,12 +756,12 @@
         ],
         "type": "LineString"
       },
-      "id": 26
+      "id": 18
     },
     {
       "type": "Feature",
       "properties": {
-        "ovidio ": 5,
+        "ovidio": 5,
         "melquisedec": "",
         "san_sebastian": ""
       },
@@ -790,7 +790,7 @@
         ],
         "type": "LineString"
       },
-      "id": 27
+      "id": 19
     },
     {
       "type": "Feature",
@@ -3901,7 +3901,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 2
+        "codigo_manzana": 2,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -4170,12 +4171,13 @@
           ]
         ]
       },
-      "id": 35
+      "id": 33
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 3
+        "codigo_manzana": 3,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -4444,12 +4446,13 @@
           ]
         ]
       },
-      "id": 36
+      "id": 34
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 4
+        "codigo_manzana": 4,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -4718,12 +4721,13 @@
           ]
         ]
       },
-      "id": 37
+      "id": 35
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 5
+        "codigo_manzana": 5,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -4991,12 +4995,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 36
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 6
+        "codigo_manzana": 6,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -5265,12 +5271,13 @@
           ]
         ]
       },
-      "id": 39
+      "id": 37
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 7
+        "codigo_manzana": 7,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -5539,12 +5546,13 @@
           ]
         ]
       },
-      "id": 40
+      "id": 38
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 8
+        "codigo_manzana": 8,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -5813,12 +5821,13 @@
           ]
         ]
       },
-      "id": 41
+      "id": 39
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 9
+        "codigo_manzana": 9,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -6087,12 +6096,13 @@
           ]
         ]
       },
-      "id": 42
+      "id": 40
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 10
+        "codigo_manzana": 10,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -6361,12 +6371,13 @@
           ]
         ]
       },
-      "id": 43
+      "id": 41
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 11
+        "codigo_manzana": 11,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -6635,12 +6646,13 @@
           ]
         ]
       },
-      "id": 44
+      "id": 42
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 12
+        "codigo_manzana": 12,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -6909,12 +6921,13 @@
           ]
         ]
       },
-      "id": 45
+      "id": 43
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 13
+        "codigo_manzana": 13,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -7182,12 +7195,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 44
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 14
+        "codigo_manzana": 14,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -7455,12 +7470,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 45
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 15
+        "codigo_manzana": 15,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -7728,12 +7745,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 46
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 16
+        "codigo_manzana": 16,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -8001,12 +8020,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 47
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 17
+        "codigo_manzana": 17,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -8274,12 +8295,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 48
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 18
+        "codigo_manzana": 18,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -8547,12 +8570,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 49
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 19
+        "codigo_manzana": 19,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -8820,12 +8845,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 50
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 20
+        "codigo_manzana": 20,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -9093,12 +9120,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 51
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 21
+        "codigo_manzana": 21,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -9366,12 +9395,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 52
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 22
+        "codigo_manzana": 22,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -9640,12 +9671,13 @@
           ]
         ]
       },
-      "id": 55
+      "id": 53
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 23
+        "codigo_manzana": 23,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -9914,12 +9946,13 @@
           ]
         ]
       },
-      "id": 56
+      "id": 54
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 24
+        "codigo_manzana": 24,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -10188,12 +10221,13 @@
           ]
         ]
       },
-      "id": 57
+      "id": 55
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 25
+        "codigo_manzana": 25,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -10462,12 +10496,13 @@
           ]
         ]
       },
-      "id": 58
+      "id": 56
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 26
+        "codigo_manzana": 26,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -10735,12 +10770,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 57
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 27
+        "codigo_manzana": 27,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -11008,12 +11045,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 58
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 28
+        "codigo_manzana": 28,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -11281,12 +11320,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 59
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 29
+        "codigo_manzana": 29,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -11554,12 +11595,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 60
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 30
+        "codigo_manzana": 30,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -11828,12 +11871,13 @@
           ]
         ]
       },
-      "id": 63
+      "id": 61
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 31
+        "codigo_manzana": 31,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -12101,12 +12145,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 62
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 32
+        "codigo_manzana": 32,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -12374,12 +12420,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 63
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 33
+        "codigo_manzana": 33,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -12647,12 +12695,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 64
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 34
+        "codigo_manzana": 34,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -12920,12 +12970,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 65
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 35
+        "codigo_manzana": 35,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -13193,12 +13245,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 66
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 36
+        "codigo_manzana": 36,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -13466,12 +13520,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 67
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 37
+        "codigo_manzana": 37,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -13739,12 +13795,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 68
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 38
+        "codigo_manzana": 38,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -14012,12 +14070,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 69
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 39
+        "codigo_manzana": 39,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -14285,12 +14345,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 70
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 40
+        "codigo_manzana": 40,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -14558,12 +14620,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 71
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 41
+        "codigo_manzana": 41,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -14831,12 +14895,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 72
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 42
+        "codigo_manzana": 42,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -15104,12 +15170,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 73
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 43
+        "codigo_manzana": 43,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -15377,12 +15445,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 74
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 44
+        "codigo_manzana": 44,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -15650,12 +15720,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 75
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 45
+        "codigo_manzana": 45,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -15923,12 +15995,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 76
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 46
+        "codigo_manzana": 46,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -16196,12 +16270,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 77
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 47
+        "codigo_manzana": 47,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -16469,12 +16545,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 78
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 48
+        "codigo_manzana": 48,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -16743,7 +16821,7 @@
           ]
         ]
       },
-      "id": 90
+      "id": 79
     },
     {
       "type": "Feature",
@@ -16780,12 +16858,13 @@
         ],
         "type": "LineString"
       },
-      "id": 88
+      "id": 80
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 49
+        "codigo_manzana": 49,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -17053,12 +17132,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 81
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 50
+        "codigo_manzana": 50,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -17326,12 +17407,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 82
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 51
+        "codigo_manzana": 51,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -17599,12 +17682,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 83
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 52
+        "codigo_manzana": 52,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -17872,12 +17957,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 84
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 53
+        "codigo_manzana": 53,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -18145,12 +18232,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 85
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 54
+        "codigo_manzana": 54,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -18418,12 +18507,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 86
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 55
+        "codigo_manzana": 55,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -18691,12 +18782,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 87
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 56
+        "codigo_manzana": 56,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -18964,12 +19057,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 88
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 57
+        "codigo_manzana": 57,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -19237,12 +19332,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 89
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 58
+        "codigo_manzana": 58,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -19510,12 +19607,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 90
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 59
+        "codigo_manzana": 59,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -19783,7 +19882,8 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 91
     },
     {
       "type": "Feature",
@@ -19862,7 +19962,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 60
+        "codigo_manzana": 60,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -20130,12 +20231,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 94
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 61
+        "codigo_manzana": 61,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -20403,12 +20506,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 95
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 62
+        "codigo_manzana": 62,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -20676,12 +20781,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 96
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 62
+        "codigo_manzana": 62,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -20949,12 +21056,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 97
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 63
+        "codigo_manzana": 63,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -21222,12 +21331,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 98
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 64
+        "codigo_manzana": 64,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -21495,12 +21606,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 99
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 65
+        "codigo_manzana": 65,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -21768,7 +21881,8 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 100
     },
     {
       "type": "Feature",
@@ -21805,7 +21919,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 66
+        "codigo_manzana": 66,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -22073,12 +22188,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 102
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 67
+        "codigo_manzana": 67,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -22346,12 +22463,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 103
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 68
+        "codigo_manzana": 68,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -22619,12 +22738,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 104
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 69
+        "codigo_manzana": 69,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -22892,12 +23013,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 105
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 70
+        "codigo_manzana": 70,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -23165,12 +23288,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 106
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 71
+        "codigo_manzana": 71,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -23438,12 +23563,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 107
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 72
+        "codigo_manzana": 72,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -23711,12 +23838,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 108
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 73
+        "codigo_manzana": 73,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -23984,12 +24113,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 109
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 74
+        "codigo_manzana": 74,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -24257,12 +24388,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 110
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 75
+        "codigo_manzana": 75,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -24530,12 +24663,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 111
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 76
+        "codigo_manzana": 76,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -24803,12 +24938,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 112
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 77
+        "codigo_manzana": 77,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -25076,12 +25213,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 113
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 78
+        "codigo_manzana": 78,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -25349,7 +25488,8 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 114
     },
     {
       "type": "Feature",
@@ -25395,7 +25535,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 79
+        "codigo_manzana": 79,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -25663,12 +25804,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 116
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 80
+        "codigo_manzana": 80,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -25936,12 +26079,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 117
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 81
+        "codigo_manzana": 81,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -26209,12 +26354,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 118
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 82
+        "codigo_manzana": 82,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -26482,12 +26629,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 119
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 83
+        "codigo_manzana": 83,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -26755,12 +26904,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 120
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 84
+        "codigo_manzana": 84,
+        "sector": "ovidio"
       },
       "geometry": {
         "type": "Polygon",
@@ -27028,12 +27179,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 121
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 85
+        "codigo_manzana": 85,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -27301,12 +27454,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 122
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 86
+        "codigo_manzana": 86,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -27574,12 +27729,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 123
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 87
+        "codigo_manzana": 87,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -27847,12 +28004,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 124
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 88
+        "codigo_manzana": 88,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -28120,12 +28279,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 125
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 89
+        "codigo_manzana": 89,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -28393,12 +28554,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 126
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 90
+        "codigo_manzana": 90,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -28666,12 +28829,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 127
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 91
+        "codigo_manzana": 91,
+        "sector": "melquisedec"
       },
       "geometry": {
         "type": "Polygon",
@@ -28939,12 +29104,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 128
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 92
+        "codigo_manzana": 92,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -29212,12 +29379,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 129
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 93
+        "codigo_manzana": 93,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -29485,12 +29654,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 130
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 94
+        "codigo_manzana": 94,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -29758,12 +29929,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 131
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 95
+        "codigo_manzana": 95,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -30031,12 +30204,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 132
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 96
+        "codigo_manzana": 96,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -30304,12 +30479,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 133
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 97
+        "codigo_manzana": 97,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -30577,12 +30754,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 134
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 98
+        "codigo_manzana": 98,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -30850,12 +31029,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 135
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 99
+        "codigo_manzana": 99,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -31123,12 +31304,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 136
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 100
+        "codigo_manzana": 100,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -31396,12 +31579,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 137
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 101
+        "codigo_manzana": 101,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -31669,7 +31854,8 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 138
     },
     {
       "type": "Feature",
@@ -31738,7 +31924,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 102
+        "codigo_manzana": 102,
+        "sector": "bengala"
       },
       "geometry": {
         "type": "Polygon",
@@ -32006,12 +32193,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 140
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 103
+        "codigo_manzana": 103,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -32279,12 +32468,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 141
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 104
+        "codigo_manzana": 104,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -32552,12 +32743,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 142
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 105
+        "codigo_manzana": 105,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -32825,12 +33018,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 143
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 106
+        "codigo_manzana": 106,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -33098,12 +33293,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 144
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 107
+        "codigo_manzana": 107,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -33371,12 +33568,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 145
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 108
+        "codigo_manzana": 108,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -33644,12 +33843,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 146
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 109
+        "codigo_manzana": 109,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -33917,12 +34118,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 147
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 110
+        "codigo_manzana": 110,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34190,12 +34393,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 148
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 111
+        "codigo_manzana": 111,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34463,12 +34668,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 149
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 112
+        "codigo_manzana": 112,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -34736,12 +34943,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 150
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 113
+        "codigo_manzana": 113,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -35009,12 +35218,14 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 151
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 114
+        "codigo_manzana": 114,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -35282,7 +35493,8 @@
             ]
           ]
         ]
-      }
+      },
+      "id": 152
     },
     {
       "type": "Feature",
@@ -36013,7 +36225,9 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "san_sebastian": 11
+      },
       "geometry": {
         "coordinates": [
           [
@@ -36054,12 +36268,14 @@
           ]
         ],
         "type": "LineString"
-      }
+      },
+      "id": 156
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 304
+        "codigo_manzana": 304,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -36333,7 +36549,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 302
+        "codigo_manzana": 302,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -36607,7 +36824,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 301
+        "codigo_manzana": 301,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -36881,7 +37099,8 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 300
+        "codigo_manzana": 300,
+        "sector": "san_sebastian"
       },
       "geometry": {
         "type": "Polygon",
@@ -37151,6 +37370,4956 @@
         ]
       },
       "id": 160
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 307,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.4886784448346,
+              5.088944448409744
+            ],
+            [
+              -75.48868101029386,
+              5.088944322873603
+            ],
+            [
+              -75.48868355104635,
+              5.088943947474165
+            ],
+            [
+              -75.48868604262321,
+              5.0889433258267305
+            ],
+            [
+              -75.48868846102921,
+              5.088942463918105
+            ],
+            [
+              -75.48869078297376,
+              5.088941370048941
+            ],
+            [
+              -75.4886929860953,
+              5.088940054753796
+            ],
+            [
+              -75.48869504917651,
+              5.088938530699686
+            ],
+            [
+              -75.48869695234882,
+              5.088936812564083
+            ],
+            [
+              -75.48869867728365,
+              5.088934916893577
+            ],
+            [
+              -75.48870020736891,
+              5.088932861944509
+            ],
+            [
+              -75.48870152786905,
+              5.088930667507167
+            ],
+            [
+              -75.48870262606694,
+              5.088928354715181
+            ],
+            [
+              -75.48870349138635,
+              5.088925945842005
+            ],
+            [
+              -75.48870411549375,
+              5.088923464086403
+            ],
+            [
+              -75.48870449237866,
+              5.0889209333490415
+            ],
+            [
+              -75.48870461841149,
+              5.088918378002304
+            ],
+            [
+              -75.48870449237845,
+              5.088915822655576
+            ],
+            [
+              -75.48870411549333,
+              5.088913291918244
+            ],
+            [
+              -75.48870349138575,
+              5.088910810162692
+            ],
+            [
+              -75.48870262606619,
+              5.08890840128958
+            ],
+            [
+              -75.48870152786817,
+              5.088906088497676
+            ],
+            [
+              -75.48870020736793,
+              5.088903894060424
+            ],
+            [
+              -75.48869867728261,
+              5.088901839111456
+            ],
+            [
+              -75.48869695234778,
+              5.088899943441052
+            ],
+            [
+              -75.48869504917548,
+              5.088898225305553
+            ],
+            [
+              -75.48869298609432,
+              5.088896701251541
+            ],
+            [
+              -75.4886907829729,
+              5.088895385956488
+            ],
+            [
+              -75.48868846102846,
+              5.088894292087404
+            ],
+            [
+              -75.48868604262262,
+              5.088893430178844
+            ],
+            [
+              -75.48868355104594,
+              5.088892808531458
+            ],
+            [
+              -75.48868101029366,
+              5.08889243313205
+            ],
+            [
+              -75.4886784448346,
+              5.08889230759592
+            ],
+            [
+              -75.48867587937555,
+              5.08889243313205
+            ],
+            [
+              -75.48867333862327,
+              5.088892808531458
+            ],
+            [
+              -75.48867084704659,
+              5.088893430178844
+            ],
+            [
+              -75.48866842864075,
+              5.088894292087404
+            ],
+            [
+              -75.48866610669631,
+              5.088895385956488
+            ],
+            [
+              -75.48866390357489,
+              5.088896701251541
+            ],
+            [
+              -75.48866184049373,
+              5.088898225305553
+            ],
+            [
+              -75.48865993732144,
+              5.088899943441052
+            ],
+            [
+              -75.4886582123866,
+              5.088901839111456
+            ],
+            [
+              -75.48865668230128,
+              5.088903894060424
+            ],
+            [
+              -75.48865536180104,
+              5.088906088497676
+            ],
+            [
+              -75.48865426360302,
+              5.08890840128958
+            ],
+            [
+              -75.48865339828346,
+              5.088910810162692
+            ],
+            [
+              -75.48865277417588,
+              5.088913291918244
+            ],
+            [
+              -75.48865239729076,
+              5.088915822655576
+            ],
+            [
+              -75.48865227125772,
+              5.088918378002304
+            ],
+            [
+              -75.48865239729055,
+              5.0889209333490415
+            ],
+            [
+              -75.48865277417546,
+              5.088923464086403
+            ],
+            [
+              -75.48865339828286,
+              5.088925945842005
+            ],
+            [
+              -75.48865426360227,
+              5.088928354715181
+            ],
+            [
+              -75.48865536180016,
+              5.088930667507167
+            ],
+            [
+              -75.4886566823003,
+              5.088932861944509
+            ],
+            [
+              -75.48865821238556,
+              5.088934916893577
+            ],
+            [
+              -75.48865993732038,
+              5.088936812564083
+            ],
+            [
+              -75.4886618404927,
+              5.088938530699686
+            ],
+            [
+              -75.48866390357391,
+              5.088940054753796
+            ],
+            [
+              -75.48866610669545,
+              5.088941370048941
+            ],
+            [
+              -75.48866842864,
+              5.088942463918105
+            ],
+            [
+              -75.48867084704598,
+              5.0889433258267305
+            ],
+            [
+              -75.48867333862286,
+              5.088943947474165
+            ],
+            [
+              -75.48867587937535,
+              5.088944322873603
+            ],
+            [
+              -75.4886784448346,
+              5.088944448409744
+            ]
+          ]
+        ]
+      },
+      "id": 161
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 305,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48877029877784,
+              5.088600265241485
+            ],
+            [
+              -75.48877289716583,
+              5.08860013809397
+            ],
+            [
+              -75.48877547052992,
+              5.088599757875921
+            ],
+            [
+              -75.4887779940872,
+              5.088599128249048
+            ],
+            [
+              -75.48878044353444,
+              5.0885982552770015
+            ],
+            [
+              -75.48878279528212,
+              5.088597147366982
+            ],
+            [
+              -75.48878502668161,
+              5.08859581518877
+            ],
+            [
+              -75.48878711624333,
+              5.088594271571969
+            ],
+            [
+              -75.48878904384365,
+              5.0885925313824565
+            ],
+            [
+              -75.4887907909187,
+              5.0885906113792085
+            ],
+            [
+              -75.48879234064324,
+              5.088588530052909
+            ],
+            [
+              -75.48879367809255,
+              5.088586307447867
+            ],
+            [
+              -75.48879479038627,
+              5.08858396496899
+            ],
+            [
+              -75.4887956668124,
+              5.088581525175625
+            ],
+            [
+              -75.48879629893047,
+              5.088579011564323
+            ],
+            [
+              -75.48879668065287,
+              5.088576448342532
+            ],
+            [
+              -75.48879680830335,
+              5.08857386019548
+            ],
+            [
+              -75.48879668065264,
+              5.088571272048439
+            ],
+            [
+              -75.48879629893005,
+              5.088568708826678
+            ],
+            [
+              -75.4887956668118,
+              5.088566195215425
+            ],
+            [
+              -75.4887947903855,
+              5.088563755422129
+            ],
+            [
+              -75.48879367809165,
+              5.088561412943332
+            ],
+            [
+              -75.48879234064225,
+              5.088559190338386
+            ],
+            [
+              -75.48879079091763,
+              5.088557109012188
+            ],
+            [
+              -75.48878904384256,
+              5.088555189009045
+            ],
+            [
+              -75.48878711624226,
+              5.088553448819639
+            ],
+            [
+              -75.4887850266806,
+              5.088551905202939
+            ],
+            [
+              -75.48878279528121,
+              5.08855057302482
+            ],
+            [
+              -75.48878044353367,
+              5.088549465114883
+            ],
+            [
+              -75.4887779940866,
+              5.088548592142905
+            ],
+            [
+              -75.4887754705295,
+              5.088547962516081
+            ],
+            [
+              -75.4887728971656,
+              5.088547582298063
+            ],
+            [
+              -75.48877029877784,
+              5.088547455150557
+            ],
+            [
+              -75.48876770039007,
+              5.088547582298063
+            ],
+            [
+              -75.48876512702618,
+              5.088547962516081
+            ],
+            [
+              -75.48876260346908,
+              5.088548592142905
+            ],
+            [
+              -75.488760154022,
+              5.088549465114883
+            ],
+            [
+              -75.48875780227446,
+              5.08855057302482
+            ],
+            [
+              -75.48875557087507,
+              5.088551905202939
+            ],
+            [
+              -75.48875348131342,
+              5.088553448819639
+            ],
+            [
+              -75.48875155371313,
+              5.088555189009045
+            ],
+            [
+              -75.48874980663805,
+              5.088557109012188
+            ],
+            [
+              -75.48874825691344,
+              5.088559190338386
+            ],
+            [
+              -75.48874691946403,
+              5.088561412943332
+            ],
+            [
+              -75.48874580717018,
+              5.088563755422129
+            ],
+            [
+              -75.48874493074389,
+              5.088566195215425
+            ],
+            [
+              -75.48874429862563,
+              5.088568708826678
+            ],
+            [
+              -75.48874391690305,
+              5.088571272048439
+            ],
+            [
+              -75.48874378925233,
+              5.08857386019548
+            ],
+            [
+              -75.48874391690282,
+              5.088576448342532
+            ],
+            [
+              -75.48874429862522,
+              5.088579011564323
+            ],
+            [
+              -75.4887449307433,
+              5.088581525175625
+            ],
+            [
+              -75.48874580716942,
+              5.08858396496899
+            ],
+            [
+              -75.48874691946313,
+              5.088586307447867
+            ],
+            [
+              -75.48874825691243,
+              5.088588530052909
+            ],
+            [
+              -75.48874980663697,
+              5.0885906113792085
+            ],
+            [
+              -75.48875155371204,
+              5.0885925313824565
+            ],
+            [
+              -75.48875348131236,
+              5.088594271571969
+            ],
+            [
+              -75.48875557087406,
+              5.08859581518877
+            ],
+            [
+              -75.48875780227357,
+              5.088597147366982
+            ],
+            [
+              -75.48876015402125,
+              5.0885982552770015
+            ],
+            [
+              -75.48876260346849,
+              5.088599128249048
+            ],
+            [
+              -75.48876512702577,
+              5.088599757875921
+            ],
+            [
+              -75.48876770038986,
+              5.08860013809397
+            ],
+            [
+              -75.48877029877784,
+              5.088600265241485
+            ]
+          ]
+        ]
+      },
+      "id": 162
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 305,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48870258207175,
+              5.0887842839981525
+            ],
+            [
+              -75.48870565326501,
+              5.088784133714789
+            ],
+            [
+              -75.488708694881,
+              5.088783684312009
+            ],
+            [
+              -75.48871167762728,
+              5.08878294011781
+            ],
+            [
+              -75.48871457277839,
+              5.088781908299186
+            ],
+            [
+              -75.48871735245241,
+              5.08878059879312
+            ],
+            [
+              -75.48871998987958,
+              5.0887790242108695
+            ],
+            [
+              -75.48872245966002,
+              5.088777199716527
+            ],
+            [
+              -75.4887247380084,
+              5.08877514288097
+            ],
+            [
+              -75.48872680298297,
+              5.088772873512653
+            ],
+            [
+              -75.48872863469691,
+              5.088770413466834
+            ],
+            [
+              -75.4887302155098,
+              5.088767786435103
+            ],
+            [
+              -75.48873153019755,
+              5.088765017717213
+            ],
+            [
+              -75.48873256609903,
+              5.088762133977432
+            ],
+            [
+              -75.48873331323792,
+              5.088759162987751
+            ],
+            [
+              -75.48873376441887,
+              5.088756133360427
+            ],
+            [
+              -75.48873391529676,
+              5.088753074272428
+            ],
+            [
+              -75.48873376441857,
+              5.088750015184443
+            ],
+            [
+              -75.48873331323733,
+              5.088746985557163
+            ],
+            [
+              -75.4887325660982,
+              5.088744014567553
+            ],
+            [
+              -75.48873153019649,
+              5.088741130827866
+            ],
+            [
+              -75.48873021550853,
+              5.088738362110089
+            ],
+            [
+              -75.4887286346955,
+              5.0887357350784885
+            ],
+            [
+              -75.48872680298147,
+              5.088733275032813
+            ],
+            [
+              -75.48872473800687,
+              5.088731005664643
+            ],
+            [
+              -75.48872245965852,
+              5.0887289488292335
+            ],
+            [
+              -75.48871998987816,
+              5.088727124335033
+            ],
+            [
+              -75.48871735245115,
+              5.088725549752914
+            ],
+            [
+              -75.4887145727773,
+              5.088724240246962
+            ],
+            [
+              -75.48871167762644,
+              5.088723208428433
+            ],
+            [
+              -75.48870869488042,
+              5.088722464234303
+            ],
+            [
+              -75.48870565326472,
+              5.088722014831566
+            ],
+            [
+              -75.48870258207175,
+              5.0887218645482175
+            ],
+            [
+              -75.48869951087879,
+              5.088722014831566
+            ],
+            [
+              -75.48869646926309,
+              5.088722464234303
+            ],
+            [
+              -75.48869348651706,
+              5.088723208428433
+            ],
+            [
+              -75.48869059136621,
+              5.088724240246962
+            ],
+            [
+              -75.48868781169236,
+              5.088725549752914
+            ],
+            [
+              -75.48868517426534,
+              5.088727124335033
+            ],
+            [
+              -75.48868270448499,
+              5.0887289488292335
+            ],
+            [
+              -75.48868042613664,
+              5.088731005664643
+            ],
+            [
+              -75.48867836116203,
+              5.088733275032813
+            ],
+            [
+              -75.48867652944801,
+              5.0887357350784885
+            ],
+            [
+              -75.48867494863497,
+              5.088738362110089
+            ],
+            [
+              -75.48867363394702,
+              5.088741130827866
+            ],
+            [
+              -75.48867259804533,
+              5.088744014567553
+            ],
+            [
+              -75.48867185090617,
+              5.088746985557163
+            ],
+            [
+              -75.48867139972494,
+              5.088750015184443
+            ],
+            [
+              -75.48867124884674,
+              5.088753074272428
+            ],
+            [
+              -75.48867139972465,
+              5.088756133360427
+            ],
+            [
+              -75.48867185090558,
+              5.088759162987751
+            ],
+            [
+              -75.48867259804447,
+              5.088762133977432
+            ],
+            [
+              -75.48867363394595,
+              5.088765017717213
+            ],
+            [
+              -75.48867494863372,
+              5.088767786435103
+            ],
+            [
+              -75.4886765294466,
+              5.088770413466834
+            ],
+            [
+              -75.48867836116055,
+              5.088772873512653
+            ],
+            [
+              -75.48868042613512,
+              5.08877514288097
+            ],
+            [
+              -75.4886827044835,
+              5.088777199716527
+            ],
+            [
+              -75.48868517426394,
+              5.0887790242108695
+            ],
+            [
+              -75.48868781169111,
+              5.08878059879312
+            ],
+            [
+              -75.48869059136513,
+              5.088781908299186
+            ],
+            [
+              -75.48869348651623,
+              5.08878294011781
+            ],
+            [
+              -75.4886964692625,
+              5.088783684312009
+            ],
+            [
+              -75.4886995108785,
+              5.088784133714789
+            ],
+            [
+              -75.48870258207175,
+              5.0887842839981525
+            ]
+          ]
+        ]
+      },
+      "id": 163
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 308,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.4886411852675,
+              5.089123814347814
+            ],
+            [
+              -75.48864434382361,
+              5.089123659789586
+            ],
+            [
+              -75.48864747196107,
+              5.089123197603385
+            ],
+            [
+              -75.48865053955426,
+              5.089122432240316
+            ],
+            [
+              -75.48865351706053,
+              5.089121371071246
+            ],
+            [
+              -75.48865637580487,
+              5.089120024315815
+            ],
+            [
+              -75.48865908825601,
+              5.0891184049440135
+            ],
+            [
+              -75.48866162829157,
+              5.089116528551281
+            ],
+            [
+              -75.48866397144961,
+              5.089114413208306
+            ],
+            [
+              -75.48866609516423,
+              5.089112079287001
+            ],
+            [
+              -75.4886679789829,
+              5.0891095492643075
+            ],
+            [
+              -75.48866960476344,
+              5.089106847505726
+            ],
+            [
+              -75.48867095684868,
+              5.089104000030674
+            ],
+            [
+              -75.48867202221729,
+              5.089101034261892
+            ],
+            [
+              -75.4886727906092,
+              5.089097978761358
+            ],
+            [
+              -75.48867325462439,
+              5.0890948629552115
+            ],
+            [
+              -75.48867340979413,
+              5.089091716850371
+            ],
+            [
+              -75.48867325462408,
+              5.089088570745546
+            ],
+            [
+              -75.48867279060858,
+              5.089085454939446
+            ],
+            [
+              -75.48867202221639,
+              5.089082399438985
+            ],
+            [
+              -75.48867095684754,
+              5.089079433670303
+            ],
+            [
+              -75.48866960476211,
+              5.089076586195373
+            ],
+            [
+              -75.48866797898143,
+              5.089073884436929
+            ],
+            [
+              -75.48866609516266,
+              5.0890713544143855
+            ],
+            [
+              -75.488663971448,
+              5.089069020493237
+            ],
+            [
+              -75.48866162829,
+              5.0890669051504185
+            ],
+            [
+              -75.48865908825452,
+              5.089065028757836
+            ],
+            [
+              -75.48865637580353,
+              5.089063409386173
+            ],
+            [
+              -75.4886535170594,
+              5.089062062630863
+            ],
+            [
+              -75.48865053955336,
+              5.089061001461893
+            ],
+            [
+              -75.48864747196046,
+              5.089060236098897
+            ],
+            [
+              -75.4886443438233,
+              5.089059773912743
+            ],
+            [
+              -75.4886411852675,
+              5.08905961935453
+            ],
+            [
+              -75.48863802671171,
+              5.089059773912743
+            ],
+            [
+              -75.48863489857453,
+              5.089060236098897
+            ],
+            [
+              -75.48863183098163,
+              5.089061001461893
+            ],
+            [
+              -75.4886288534756,
+              5.089062062630863
+            ],
+            [
+              -75.48862599473146,
+              5.089063409386173
+            ],
+            [
+              -75.48862328228046,
+              5.089065028757836
+            ],
+            [
+              -75.48862074224499,
+              5.0890669051504185
+            ],
+            [
+              -75.48861839908699,
+              5.089069020493237
+            ],
+            [
+              -75.48861627537232,
+              5.0890713544143855
+            ],
+            [
+              -75.48861439155357,
+              5.089073884436929
+            ],
+            [
+              -75.48861276577288,
+              5.089076586195373
+            ],
+            [
+              -75.48861141368745,
+              5.089079433670303
+            ],
+            [
+              -75.4886103483186,
+              5.089082399438985
+            ],
+            [
+              -75.4886095799264,
+              5.089085454939446
+            ],
+            [
+              -75.4886091159109,
+              5.089088570745546
+            ],
+            [
+              -75.48860896074086,
+              5.089091716850371
+            ],
+            [
+              -75.4886091159106,
+              5.0890948629552115
+            ],
+            [
+              -75.48860957992578,
+              5.089097978761358
+            ],
+            [
+              -75.4886103483177,
+              5.089101034261892
+            ],
+            [
+              -75.48861141368631,
+              5.089104000030674
+            ],
+            [
+              -75.48861276577155,
+              5.089106847505726
+            ],
+            [
+              -75.48861439155208,
+              5.0891095492643075
+            ],
+            [
+              -75.48861627537076,
+              5.089112079287001
+            ],
+            [
+              -75.48861839908538,
+              5.089114413208306
+            ],
+            [
+              -75.48862074224343,
+              5.089116528551281
+            ],
+            [
+              -75.48862328227898,
+              5.0891184049440135
+            ],
+            [
+              -75.48862599473013,
+              5.089120024315815
+            ],
+            [
+              -75.48862885347447,
+              5.089121371071246
+            ],
+            [
+              -75.48863183098072,
+              5.089122432240316
+            ],
+            [
+              -75.48863489857392,
+              5.089123197603385
+            ],
+            [
+              -75.48863802671139,
+              5.089123659789586
+            ],
+            [
+              -75.4886411852675,
+              5.089123814347814
+            ]
+          ]
+        ]
+      },
+      "id": 164
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 309,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48860239451409,
+              5.089292931037998
+            ],
+            [
+              -75.48860528460527,
+              5.089292789616652
+            ],
+            [
+              -75.4886081468633,
+              5.089292366714584
+            ],
+            [
+              -75.48861095372305,
+              5.089291666404571
+            ],
+            [
+              -75.48861367815294,
+              5.0892906954309804
+            ],
+            [
+              -75.4886162939152,
+              5.089289463144822
+            ],
+            [
+              -75.48861877581861,
+              5.089287981413686
+            ],
+            [
+              -75.4886210999611,
+              5.0892862645074555
+            ],
+            [
+              -75.48862324395985,
+              5.089284328960875
+            ],
+            [
+              -75.48862518716705,
+              5.089282193414321
+            ],
+            [
+              -75.48862691086852,
+              5.089279878434275
+            ],
+            [
+              -75.48862839846409,
+              5.089277406315263
+            ],
+            [
+              -75.48862963562736,
+              5.089274800865145
+            ],
+            [
+              -75.48863061044382,
+              5.089272087175829
+            ],
+            [
+              -75.48863131352545,
+              5.089269291381627
+            ],
+            [
+              -75.48863173810118,
+              5.08926644040757
+            ],
+            [
+              -75.48863188008211,
+              5.089263561710094
+            ],
+            [
+              -75.48863173810092,
+              5.089260683012633
+            ],
+            [
+              -75.48863131352495,
+              5.089257832038613
+            ],
+            [
+              -75.48863061044307,
+              5.089255036244475
+            ],
+            [
+              -75.48862963562641,
+              5.089252322555241
+            ],
+            [
+              -75.48862839846296,
+              5.089249717105225
+            ],
+            [
+              -75.48862691086728,
+              5.089247244986328
+            ],
+            [
+              -75.48862518716574,
+              5.089244930006408
+            ],
+            [
+              -75.48862324395853,
+              5.089242794459985
+            ],
+            [
+              -75.48862109995976,
+              5.089240858913537
+            ],
+            [
+              -75.48861877581736,
+              5.089239142007431
+            ],
+            [
+              -75.48861629391408,
+              5.089237660276411
+            ],
+            [
+              -75.48861367815199,
+              5.089236427990354
+            ],
+            [
+              -75.48861095372231,
+              5.089235457016847
+            ],
+            [
+              -75.48860814686279,
+              5.089234756706896
+            ],
+            [
+              -75.48860528460501,
+              5.089234333804866
+            ],
+            [
+              -75.48860239451409,
+              5.089234192383534
+            ],
+            [
+              -75.48859950442315,
+              5.089234333804866
+            ],
+            [
+              -75.48859664216539,
+              5.089234756706896
+            ],
+            [
+              -75.48859383530586,
+              5.089235457016847
+            ],
+            [
+              -75.48859111087619,
+              5.089236427990354
+            ],
+            [
+              -75.4885884951141,
+              5.089237660276411
+            ],
+            [
+              -75.4885860132108,
+              5.089239142007431
+            ],
+            [
+              -75.4885836890684,
+              5.089240858913537
+            ],
+            [
+              -75.48858154506966,
+              5.089242794459985
+            ],
+            [
+              -75.48857960186244,
+              5.089244930006408
+            ],
+            [
+              -75.48857787816088,
+              5.089247244986328
+            ],
+            [
+              -75.48857639056521,
+              5.089249717105225
+            ],
+            [
+              -75.48857515340177,
+              5.089252322555241
+            ],
+            [
+              -75.4885741785851,
+              5.089255036244475
+            ],
+            [
+              -75.48857347550323,
+              5.089257832038613
+            ],
+            [
+              -75.48857305092726,
+              5.089260683012633
+            ],
+            [
+              -75.48857290894607,
+              5.089263561710094
+            ],
+            [
+              -75.48857305092699,
+              5.08926644040757
+            ],
+            [
+              -75.48857347550273,
+              5.089269291381627
+            ],
+            [
+              -75.48857417858434,
+              5.089272087175829
+            ],
+            [
+              -75.48857515340082,
+              5.089274800865145
+            ],
+            [
+              -75.48857639056409,
+              5.089277406315263
+            ],
+            [
+              -75.48857787815966,
+              5.089279878434275
+            ],
+            [
+              -75.48857960186112,
+              5.089282193414321
+            ],
+            [
+              -75.48858154506831,
+              5.089284328960875
+            ],
+            [
+              -75.48858368906708,
+              5.0892862645074555
+            ],
+            [
+              -75.48858601320956,
+              5.089287981413686
+            ],
+            [
+              -75.48858849511298,
+              5.089289463144822
+            ],
+            [
+              -75.48859111087523,
+              5.0892906954309804
+            ],
+            [
+              -75.48859383530512,
+              5.089291666404571
+            ],
+            [
+              -75.48859664216488,
+              5.089292366714584
+            ],
+            [
+              -75.48859950442291,
+              5.089292789616652
+            ],
+            [
+              -75.48860239451409,
+              5.089292931037998
+            ]
+          ]
+        ]
+      },
+      "id": 165
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 310,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48856009938295,
+              5.089467896309403
+            ],
+            [
+              -75.48856294700626,
+              5.089467756966185
+            ],
+            [
+              -75.48856576720542,
+              5.08946734027848
+            ],
+            [
+              -75.48856853282032,
+              5.0894666502592205
+            ],
+            [
+              -75.48857121721662,
+              5.08946569355367
+            ],
+            [
+              -75.48857379454206,
+              5.089464479375428
+            ],
+            [
+              -75.48857623997564,
+              5.0894630194176935
+            ],
+            [
+              -75.48857852996646,
+              5.08946132774066
+            ],
+            [
+              -75.48858064246068,
+              5.089459420636106
+            ],
+            [
+              -75.4885825571138,
+              5.089457316470492
+            ],
+            [
+              -75.48858425548667,
+              5.089455035508082
+            ],
+            [
+              -75.48858572122306,
+              5.089452599715797
+            ],
+            [
+              -75.48858694020711,
+              5.089450032551646
+            ],
+            [
+              -75.48858790069932,
+              5.089447358738828
+            ],
+            [
+              -75.48858859344965,
+              5.08944460402762
+            ],
+            [
+              -75.48858901178653,
+              5.089441794947399
+            ],
+            [
+              -75.48858915168117,
+              5.089438958551145
+            ],
+            [
+              -75.48858901178627,
+              5.089436122154903
+            ],
+            [
+              -75.48858859344915,
+              5.08943331307472
+            ],
+            [
+              -75.48858790069859,
+              5.089430558363572
+            ],
+            [
+              -75.48858694020618,
+              5.089427884550833
+            ],
+            [
+              -75.48858572122198,
+              5.089425317386782
+            ],
+            [
+              -75.48858425548548,
+              5.089422881594609
+            ],
+            [
+              -75.48858255711252,
+              5.089420600632321
+            ],
+            [
+              -75.48858064245937,
+              5.089418496466833
+            ],
+            [
+              -75.4885785299652,
+              5.089416589362407
+            ],
+            [
+              -75.48857623997444,
+              5.089414897685495
+            ],
+            [
+              -75.48857379454098,
+              5.089413437727875
+            ],
+            [
+              -75.48857121721568,
+              5.08941222354973
+            ],
+            [
+              -75.4885685328196,
+              5.089411266844261
+            ],
+            [
+              -75.48856576720492,
+              5.0894105768250615
+            ],
+            [
+              -75.48856294700602,
+              5.089410160137394
+            ],
+            [
+              -75.48856009938295,
+              5.089410020794188
+            ],
+            [
+              -75.48855725175989,
+              5.089410160137394
+            ],
+            [
+              -75.48855443156098,
+              5.0894105768250615
+            ],
+            [
+              -75.4885516659463,
+              5.089411266844261
+            ],
+            [
+              -75.48854898155021,
+              5.08941222354973
+            ],
+            [
+              -75.48854640422492,
+              5.089413437727875
+            ],
+            [
+              -75.48854395879147,
+              5.089414897685495
+            ],
+            [
+              -75.4885416688007,
+              5.089416589362407
+            ],
+            [
+              -75.48853955630653,
+              5.089418496466833
+            ],
+            [
+              -75.48853764165337,
+              5.089420600632321
+            ],
+            [
+              -75.48853594328041,
+              5.089422881594609
+            ],
+            [
+              -75.48853447754391,
+              5.089425317386782
+            ],
+            [
+              -75.48853325855971,
+              5.089427884550833
+            ],
+            [
+              -75.48853229806731,
+              5.089430558363572
+            ],
+            [
+              -75.48853160531675,
+              5.08943331307472
+            ],
+            [
+              -75.48853118697963,
+              5.089436122154903
+            ],
+            [
+              -75.48853104708473,
+              5.089438958551145
+            ],
+            [
+              -75.48853118697937,
+              5.089441794947399
+            ],
+            [
+              -75.48853160531625,
+              5.08944460402762
+            ],
+            [
+              -75.48853229806659,
+              5.089447358738828
+            ],
+            [
+              -75.48853325855879,
+              5.089450032551646
+            ],
+            [
+              -75.48853447754284,
+              5.089452599715797
+            ],
+            [
+              -75.48853594327922,
+              5.089455035508082
+            ],
+            [
+              -75.4885376416521,
+              5.089457316470492
+            ],
+            [
+              -75.48853955630523,
+              5.089459420636106
+            ],
+            [
+              -75.48854166879944,
+              5.08946132774066
+            ],
+            [
+              -75.48854395879026,
+              5.0894630194176935
+            ],
+            [
+              -75.48854640422383,
+              5.089464479375428
+            ],
+            [
+              -75.48854898154929,
+              5.08946569355367
+            ],
+            [
+              -75.48855166594558,
+              5.0894666502592205
+            ],
+            [
+              -75.48855443156049,
+              5.08946734027848
+            ],
+            [
+              -75.48855725175963,
+              5.089467756966185
+            ],
+            [
+              -75.48856009938295,
+              5.089467896309403
+            ]
+          ]
+        ]
+      },
+      "id": 166
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 311,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.4885232118763,
+              5.089640896798242
+            ],
+            [
+              -75.4885263466128,
+              5.089640743405708
+            ],
+            [
+              -75.48852945116006,
+              5.08964028470536
+            ],
+            [
+              -75.48853249561961,
+              5.089639525114731
+            ],
+            [
+              -75.48853545067162,
+              5.0896384719491
+            ],
+            [
+              -75.48853828785731,
+              5.089637135351025
+            ],
+            [
+              -75.48854097985307,
+              5.089635528192681
+            ],
+            [
+              -75.48854350073346,
+              5.08963366595188
+            ],
+            [
+              -75.48854582622104,
+              5.089631566563024
+            ],
+            [
+              -75.4885479339201,
+              5.089629250244376
+            ],
+            [
+              -75.48854980353235,
+              5.089626739303353
+            ],
+            [
+              -75.48855141705239,
+              5.089624057921693
+            ],
+            [
+              -75.48855275894114,
+              5.089621231922567
+            ],
+            [
+              -75.4885538162755,
+              5.089618288521896
+            ],
+            [
+              -75.48855457887274,
+              5.089615256066237
+            ],
+            [
+              -75.48855503938866,
+              5.089612163759796
+            ],
+            [
+              -75.48855519338822,
+              5.089609041383177
+            ],
+            [
+              -75.48855503938834,
+              5.089605919006574
+            ],
+            [
+              -75.48855457887213,
+              5.089602826700178
+            ],
+            [
+              -75.48855381627462,
+              5.089599794244592
+            ],
+            [
+              -75.48855275894002,
+              5.089596850844019
+            ],
+            [
+              -75.48855141705107,
+              5.089594024845012
+            ],
+            [
+              -75.48854980353087,
+              5.089591343463488
+            ],
+            [
+              -75.48854793391855,
+              5.0895888325226135
+            ],
+            [
+              -75.48854582621946,
+              5.089586516204119
+            ],
+            [
+              -75.4885435007319,
+              5.089584416815417
+            ],
+            [
+              -75.4885409798516,
+              5.089582554574765
+            ],
+            [
+              -75.48853828785602,
+              5.0895809474165565
+            ],
+            [
+              -75.4885354506705,
+              5.0895796108186016
+            ],
+            [
+              -75.48853249561873,
+              5.089578557653068
+            ],
+            [
+              -75.48852945115945,
+              5.089577798062512
+            ],
+            [
+              -75.48852634661249,
+              5.08957733936221
+            ],
+            [
+              -75.4885232118763,
+              5.08957718596969
+            ],
+            [
+              -75.48852007714011,
+              5.08957733936221
+            ],
+            [
+              -75.48851697259315,
+              5.089577798062512
+            ],
+            [
+              -75.48851392813388,
+              5.089578557653068
+            ],
+            [
+              -75.48851097308211,
+              5.0895796108186016
+            ],
+            [
+              -75.4885081358966,
+              5.0895809474165565
+            ],
+            [
+              -75.488505443901,
+              5.089582554574765
+            ],
+            [
+              -75.4885029230207,
+              5.089584416815417
+            ],
+            [
+              -75.48850059753313,
+              5.089586516204119
+            ],
+            [
+              -75.48849848983404,
+              5.0895888325226135
+            ],
+            [
+              -75.48849662022172,
+              5.089591343463488
+            ],
+            [
+              -75.48849500670153,
+              5.089594024845012
+            ],
+            [
+              -75.48849366481258,
+              5.089596850844019
+            ],
+            [
+              -75.48849260747798,
+              5.089599794244592
+            ],
+            [
+              -75.48849184488047,
+              5.089602826700178
+            ],
+            [
+              -75.48849138436425,
+              5.089605919006574
+            ],
+            [
+              -75.48849123036439,
+              5.089609041383177
+            ],
+            [
+              -75.48849138436394,
+              5.089612163759796
+            ],
+            [
+              -75.48849184487986,
+              5.089615256066237
+            ],
+            [
+              -75.4884926074771,
+              5.089618288521896
+            ],
+            [
+              -75.48849366481146,
+              5.089621231922567
+            ],
+            [
+              -75.4884950067002,
+              5.089624057921693
+            ],
+            [
+              -75.48849662022025,
+              5.089626739303353
+            ],
+            [
+              -75.4884984898325,
+              5.089629250244376
+            ],
+            [
+              -75.48850059753156,
+              5.089631566563024
+            ],
+            [
+              -75.48850292301915,
+              5.08963366595188
+            ],
+            [
+              -75.48850544389954,
+              5.089635528192681
+            ],
+            [
+              -75.48850813589529,
+              5.089637135351025
+            ],
+            [
+              -75.48851097308099,
+              5.0896384719491
+            ],
+            [
+              -75.48851392813299,
+              5.089639525114731
+            ],
+            [
+              -75.48851697259254,
+              5.08964028470536
+            ],
+            [
+              -75.4885200771398,
+              5.089640743405708
+            ],
+            [
+              -75.4885232118763,
+              5.089640896798242
+            ]
+          ]
+        ]
+      },
+      "id": 167
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 313,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48887129813244,
+              5.088925869701631
+            ],
+            [
+              -75.48887417113002,
+              5.088925729116651
+            ],
+            [
+              -75.48887701645907,
+              5.088925308715621
+            ],
+            [
+              -75.48887980671749,
+              5.088924612547233
+            ],
+            [
+              -75.4888825150336,
+              5.088923647315969
+            ],
+            [
+              -75.48888511532476,
+              5.088922422317537
+            ],
+            [
+              -75.48888758254883,
+              5.088920949349341
+            ],
+            [
+              -75.48888989294502,
+              5.088919242596874
+            ],
+            [
+              -75.48889202426301,
+              5.088917318497095
+            ],
+            [
+              -75.48889395597699,
+              5.088915195580139
+            ],
+            [
+              -75.48889566948354,
+              5.08891289429086
+            ],
+            [
+              -75.48889714828063,
+              5.088910436791932
+            ],
+            [
+              -75.48889837812665,
+              5.088907846750414
+            ],
+            [
+              -75.48889934717751,
+              5.0889051491098245
+            ],
+            [
+              -75.4889000461007,
+              5.088902369849919
+            ],
+            [
+              -75.48890046816526,
+              5.088899535736489
+            ],
+            [
+              -75.48890060930644,
+              5.088896674063597
+            ],
+            [
+              -75.488900468165,
+              5.088893812390718
+            ],
+            [
+              -75.4889000461002,
+              5.088890978277325
+            ],
+            [
+              -75.48889934717675,
+              5.088888199017481
+            ],
+            [
+              -75.48889837812571,
+              5.088885501376974
+            ],
+            [
+              -75.48889714827952,
+              5.088882911335557
+            ],
+            [
+              -75.4888956694823,
+              5.088880453836743
+            ],
+            [
+              -75.48889395597568,
+              5.088878152547587
+            ],
+            [
+              -75.48889202426167,
+              5.088876029630761
+            ],
+            [
+              -75.48888989294372,
+              5.088874105531111
+            ],
+            [
+              -75.4888875825476,
+              5.088872398778767
+            ],
+            [
+              -75.48888511532367,
+              5.088870925810686
+            ],
+            [
+              -75.48888251503264,
+              5.088869700812355
+            ],
+            [
+              -75.48887980671675,
+              5.088868735581174
+            ],
+            [
+              -75.48887701645856,
+              5.088868039412847
+            ],
+            [
+              -75.48887417112977,
+              5.088867619011855
+            ],
+            [
+              -75.48887129813244,
+              5.088867478426886
+            ],
+            [
+              -75.48886842513511,
+              5.088867619011855
+            ],
+            [
+              -75.48886557980632,
+              5.088868039412847
+            ],
+            [
+              -75.48886278954812,
+              5.088868735581174
+            ],
+            [
+              -75.48886008123222,
+              5.088869700812355
+            ],
+            [
+              -75.4888574809412,
+              5.088870925810686
+            ],
+            [
+              -75.48885501371727,
+              5.088872398778767
+            ],
+            [
+              -75.48885270332114,
+              5.088874105531111
+            ],
+            [
+              -75.4888505720032,
+              5.088876029630761
+            ],
+            [
+              -75.48884864028918,
+              5.088878152547587
+            ],
+            [
+              -75.48884692678257,
+              5.088880453836743
+            ],
+            [
+              -75.48884544798536,
+              5.088882911335557
+            ],
+            [
+              -75.48884421813916,
+              5.088885501376974
+            ],
+            [
+              -75.4888432490881,
+              5.088888199017481
+            ],
+            [
+              -75.48884255016468,
+              5.088890978277325
+            ],
+            [
+              -75.48884212809988,
+              5.088893812390718
+            ],
+            [
+              -75.48884198695842,
+              5.088896674063597
+            ],
+            [
+              -75.4888421280996,
+              5.088899535736489
+            ],
+            [
+              -75.48884255016416,
+              5.088902369849919
+            ],
+            [
+              -75.48884324908737,
+              5.0889051491098245
+            ],
+            [
+              -75.48884421813823,
+              5.088907846750414
+            ],
+            [
+              -75.48884544798425,
+              5.088910436791932
+            ],
+            [
+              -75.48884692678133,
+              5.08891289429086
+            ],
+            [
+              -75.48884864028788,
+              5.088915195580139
+            ],
+            [
+              -75.48885057200187,
+              5.088917318497095
+            ],
+            [
+              -75.48885270331985,
+              5.088919242596874
+            ],
+            [
+              -75.48885501371605,
+              5.088920949349341
+            ],
+            [
+              -75.48885748094011,
+              5.088922422317537
+            ],
+            [
+              -75.48886008123128,
+              5.088923647315969
+            ],
+            [
+              -75.48886278954738,
+              5.088924612547233
+            ],
+            [
+              -75.4888655798058,
+              5.088925308715621
+            ],
+            [
+              -75.48886842513484,
+              5.088925729116651
+            ],
+            [
+              -75.48887129813244,
+              5.088925869701631
+            ]
+          ]
+        ]
+      },
+      "id": 168
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 312,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48894243547895,
+              5.088716478480623
+            ],
+            [
+              -75.48894560290734,
+              5.08871632348815
+            ],
+            [
+              -75.48894873983164,
+              5.08871586000339
+            ],
+            [
+              -75.48895181604158,
+              5.088715092489957
+            ],
+            [
+              -75.48895480191156,
+              5.088714028339426
+            ],
+            [
+              -75.48895766868601,
+              5.08871267780015
+            ],
+            [
+              -75.48896038875634,
+              5.088711053878562
+            ],
+            [
+              -75.48896293592678,
+              5.088709172213916
+            ],
+            [
+              -75.48896528566665,
+              5.088707050927674
+            ],
+            [
+              -75.48896741534672,
+              5.088704710448984
+            ],
+            [
+              -75.48896930445697,
+              5.088702173317939
+            ],
+            [
+              -75.48897093480427,
+              5.088699463968497
+            ],
+            [
+              -75.48897229068746,
+              5.088696608493179
+            ],
+            [
+              -75.48897335904866,
+              5.088693634391774
+            ],
+            [
+              -75.48897412959894,
+              5.088690570306506
+            ],
+            [
+              -75.48897459491755,
+              5.08868744574619
+            ],
+            [
+              -75.48897475052316,
+              5.088684290802055
+            ],
+            [
+              -75.48897459491724,
+              5.088681135857935
+            ],
+            [
+              -75.48897412959832,
+              5.088678011297665
+            ],
+            [
+              -75.48897335904775,
+              5.088674947212471
+            ],
+            [
+              -75.48897229068632,
+              5.0886719731111665
+            ],
+            [
+              -75.48897093480292,
+              5.088669117635971
+            ],
+            [
+              -75.4889693044555,
+              5.0886664082866675
+            ],
+            [
+              -75.48896741534514,
+              5.088663871155773
+            ],
+            [
+              -75.48896528566503,
+              5.088661530677241
+            ],
+            [
+              -75.48896293592517,
+              5.088659409391156
+            ],
+            [
+              -75.48896038875483,
+              5.08865752772666
+            ],
+            [
+              -75.48895766868468,
+              5.088655903805212
+            ],
+            [
+              -75.48895480191041,
+              5.088654553266058
+            ],
+            [
+              -75.48895181604068,
+              5.088653489115628
+            ],
+            [
+              -75.48894873983102,
+              5.088652721602268
+            ],
+            [
+              -75.48894560290701,
+              5.088652258117555
+            ],
+            [
+              -75.48894243547895,
+              5.088652103125097
+            ],
+            [
+              -75.4889392680509,
+              5.088652258117555
+            ],
+            [
+              -75.48893613112689,
+              5.088652721602268
+            ],
+            [
+              -75.48893305491723,
+              5.088653489115628
+            ],
+            [
+              -75.48893006904748,
+              5.088654553266058
+            ],
+            [
+              -75.48892720227323,
+              5.088655903805212
+            ],
+            [
+              -75.48892448220306,
+              5.08865752772666
+            ],
+            [
+              -75.48892193503272,
+              5.088659409391156
+            ],
+            [
+              -75.48891958529288,
+              5.088661530677241
+            ],
+            [
+              -75.48891745561276,
+              5.088663871155773
+            ],
+            [
+              -75.48891556650241,
+              5.0886664082866675
+            ],
+            [
+              -75.48891393615499,
+              5.088669117635971
+            ],
+            [
+              -75.48891258027159,
+              5.0886719731111665
+            ],
+            [
+              -75.48891151191016,
+              5.088674947212471
+            ],
+            [
+              -75.48891074135958,
+              5.088678011297665
+            ],
+            [
+              -75.48891027604067,
+              5.088681135857935
+            ],
+            [
+              -75.48891012043475,
+              5.088684290802055
+            ],
+            [
+              -75.48891027604036,
+              5.08868744574619
+            ],
+            [
+              -75.48891074135896,
+              5.088690570306506
+            ],
+            [
+              -75.48891151190925,
+              5.088693634391774
+            ],
+            [
+              -75.48891258027045,
+              5.088696608493179
+            ],
+            [
+              -75.48891393615364,
+              5.088699463968497
+            ],
+            [
+              -75.48891556650094,
+              5.088702173317939
+            ],
+            [
+              -75.48891745561119,
+              5.088704710448984
+            ],
+            [
+              -75.48891958529126,
+              5.088707050927674
+            ],
+            [
+              -75.48892193503113,
+              5.088709172213916
+            ],
+            [
+              -75.48892448220157,
+              5.088711053878562
+            ],
+            [
+              -75.4889272022719,
+              5.08871267780015
+            ],
+            [
+              -75.48893006904635,
+              5.088714028339426
+            ],
+            [
+              -75.48893305491633,
+              5.088715092489957
+            ],
+            [
+              -75.48893613112627,
+              5.08871586000339
+            ],
+            [
+              -75.48893926805057,
+              5.08871632348815
+            ],
+            [
+              -75.48894243547895,
+              5.088716478480623
+            ]
+          ]
+        ]
+      },
+      "id": 169
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 315,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48903381067375,
+              5.089203641771688
+            ],
+            [
+              -75.48903640781008,
+              5.089203514685538
+            ],
+            [
+              -75.48903897993458,
+              5.0892031346509965
+            ],
+            [
+              -75.48904150227627,
+              5.0892025053280046
+            ],
+            [
+              -75.4890439505436,
+              5.089201632777288
+            ],
+            [
+              -75.48904630115845,
+              5.089200525401988
+            ],
+            [
+              -75.48904853148306,
+              5.089199193866736
+            ],
+            [
+              -75.48905062003824,
+              5.089197650994942
+            ],
+            [
+              -75.48905254671004,
+              5.0891959116453105
+            ],
+            [
+              -75.48905429294354,
+              5.089193992568729
+            ],
+            [
+              -75.48905584192157,
+              5.089191912246956
+            ],
+            [
+              -75.48905717872663,
+              5.089189690714629
+            ],
+            [
+              -75.48905829048455,
+              5.089187349366319
+            ],
+            [
+              -75.48905916648849,
+              5.089184910750491
+            ],
+            [
+              -75.48905979830208,
+              5.089182398352353
+            ],
+            [
+              -75.48906017984059,
+              5.08917983636767
+            ],
+            [
+              -75.4890603074296,
+              5.089177249469755
+            ],
+            [
+              -75.48906017984038,
+              5.089174662571851
+            ],
+            [
+              -75.48905979830165,
+              5.089172100587199
+            ],
+            [
+              -75.48905916648789,
+              5.089169588189109
+            ],
+            [
+              -75.48905829048377,
+              5.089167149573351
+            ],
+            [
+              -75.48905717872573,
+              5.089164808225122
+            ],
+            [
+              -75.48905584192056,
+              5.089162586692888
+            ],
+            [
+              -75.48905429294247,
+              5.089160506371217
+            ],
+            [
+              -75.48905254670895,
+              5.089158587294741
+            ],
+            [
+              -75.48905062003719,
+              5.089156847945215
+            ],
+            [
+              -75.48904853148206,
+              5.089155305073524
+            ],
+            [
+              -75.48904630115754,
+              5.089153973538365
+            ],
+            [
+              -75.48904395054282,
+              5.089152866163146
+            ],
+            [
+              -75.48904150227567,
+              5.0891519936124965
+            ],
+            [
+              -75.48903897993416,
+              5.089151364289555
+            ],
+            [
+              -75.48903640780988,
+              5.089150984255045
+            ],
+            [
+              -75.48903381067375,
+              5.089150857168905
+            ],
+            [
+              -75.4890312135376,
+              5.089150984255045
+            ],
+            [
+              -75.48902864141331,
+              5.089151364289555
+            ],
+            [
+              -75.48902611907181,
+              5.0891519936124965
+            ],
+            [
+              -75.48902367080466,
+              5.089152866163146
+            ],
+            [
+              -75.48902132018993,
+              5.089153973538365
+            ],
+            [
+              -75.48901908986542,
+              5.089155305073524
+            ],
+            [
+              -75.48901700131029,
+              5.089156847945215
+            ],
+            [
+              -75.48901507463853,
+              5.089158587294741
+            ],
+            [
+              -75.48901332840501,
+              5.089160506371217
+            ],
+            [
+              -75.48901177942692,
+              5.089162586692888
+            ],
+            [
+              -75.48901044262175,
+              5.089164808225122
+            ],
+            [
+              -75.48900933086371,
+              5.089167149573351
+            ],
+            [
+              -75.48900845485957,
+              5.089169588189109
+            ],
+            [
+              -75.48900782304581,
+              5.089172100587199
+            ],
+            [
+              -75.4890074415071,
+              5.089174662571851
+            ],
+            [
+              -75.48900731391788,
+              5.089177249469755
+            ],
+            [
+              -75.48900744150689,
+              5.08917983636767
+            ],
+            [
+              -75.4890078230454,
+              5.089182398352353
+            ],
+            [
+              -75.48900845485898,
+              5.089184910750491
+            ],
+            [
+              -75.48900933086294,
+              5.089187349366319
+            ],
+            [
+              -75.48901044262085,
+              5.089189690714629
+            ],
+            [
+              -75.48901177942591,
+              5.089191912246956
+            ],
+            [
+              -75.48901332840394,
+              5.089193992568729
+            ],
+            [
+              -75.48901507463744,
+              5.0891959116453105
+            ],
+            [
+              -75.48901700130924,
+              5.089197650994942
+            ],
+            [
+              -75.4890190898644,
+              5.089199193866736
+            ],
+            [
+              -75.48902132018902,
+              5.089200525401988
+            ],
+            [
+              -75.48902367080387,
+              5.089201632777288
+            ],
+            [
+              -75.48902611907121,
+              5.0892025053280046
+            ],
+            [
+              -75.4890286414129,
+              5.0892031346509965
+            ],
+            [
+              -75.4890312135374,
+              5.089203514685538
+            ],
+            [
+              -75.48903381067375,
+              5.089203641771688
+            ]
+          ]
+        ]
+      },
+      "id": 170
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 314,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.4888538786459,
+              5.089146955024924
+            ],
+            [
+              -75.48885647338268,
+              5.089146828056181
+            ],
+            [
+              -75.48885904313073,
+              5.08914644837273
+            ],
+            [
+              -75.48886156314197,
+              5.089145819631129
+            ],
+            [
+              -75.48886400914728,
+              5.089144947886507
+            ],
+            [
+              -75.48886635759034,
+              5.089143841534242
+            ],
+            [
+              -75.4888685858543,
+              5.08914251122911
+            ],
+            [
+              -75.4888706724798,
+              5.0891409697826795
+            ],
+            [
+              -75.48887259737151,
+              5.089139232039922
+            ],
+            [
+              -75.48887434199162,
+              5.089137314736255
+            ],
+            [
+              -75.4888758895385,
+              5.089135236336359
+            ],
+            [
+              -75.48887722510847,
+              5.0891330168563655
+            ],
+            [
+              -75.4888783358392,
+              5.089130677671079
+            ],
+            [
+              -75.48887921103378,
+              5.089128241308136
+            ],
+            [
+              -75.48887984226361,
+              5.089125731231042
+            ],
+            [
+              -75.48888022344961,
+              5.089123171613214
+            ],
+            [
+              -75.48888035092075,
+              5.089120587105172
+            ],
+            [
+              -75.48888022344941,
+              5.0891180025971385
+            ],
+            [
+              -75.4888798422632,
+              5.089115442979341
+            ],
+            [
+              -75.48887921103318,
+              5.089112932902299
+            ],
+            [
+              -75.48887833583844,
+              5.089110496539422
+            ],
+            [
+              -75.48887722510756,
+              5.089108157354217
+            ],
+            [
+              -75.48887588953751,
+              5.089105937874317
+            ],
+            [
+              -75.48887434199055,
+              5.089103859474523
+            ],
+            [
+              -75.48887259737042,
+              5.089101942170961
+            ],
+            [
+              -75.48887067247874,
+              5.089100204428309
+            ],
+            [
+              -75.4888685858533,
+              5.089098662981979
+            ],
+            [
+              -75.48886635758943,
+              5.089097332676942
+            ],
+            [
+              -75.48886400914651,
+              5.089096226324758
+            ],
+            [
+              -75.48886156314136,
+              5.089095354580202
+            ],
+            [
+              -75.4888590431303,
+              5.0890947258386525
+            ],
+            [
+              -75.48885647338247,
+              5.089094346155232
+            ],
+            [
+              -75.4888538786459,
+              5.0890942191864985
+            ],
+            [
+              -75.48885128390933,
+              5.089094346155232
+            ],
+            [
+              -75.48884871416148,
+              5.0890947258386525
+            ],
+            [
+              -75.48884619415044,
+              5.089095354580202
+            ],
+            [
+              -75.48884374814527,
+              5.089096226324758
+            ],
+            [
+              -75.48884139970237,
+              5.089097332676942
+            ],
+            [
+              -75.48883917143849,
+              5.089098662981979
+            ],
+            [
+              -75.48883708481304,
+              5.089100204428309
+            ],
+            [
+              -75.48883515992136,
+              5.089101942170961
+            ],
+            [
+              -75.48883341530124,
+              5.089103859474523
+            ],
+            [
+              -75.48883186775427,
+              5.089105937874317
+            ],
+            [
+              -75.48883053218424,
+              5.089108157354217
+            ],
+            [
+              -75.48882942145335,
+              5.089110496539422
+            ],
+            [
+              -75.4888285462586,
+              5.089112932902299
+            ],
+            [
+              -75.4888279150286,
+              5.089115442979341
+            ],
+            [
+              -75.48882753384238,
+              5.0891180025971385
+            ],
+            [
+              -75.48882740637104,
+              5.089120587105172
+            ],
+            [
+              -75.48882753384217,
+              5.089123171613214
+            ],
+            [
+              -75.48882791502817,
+              5.089125731231042
+            ],
+            [
+              -75.488828546258,
+              5.089128241308136
+            ],
+            [
+              -75.48882942145259,
+              5.089130677671079
+            ],
+            [
+              -75.48883053218333,
+              5.0891330168563655
+            ],
+            [
+              -75.48883186775328,
+              5.089135236336359
+            ],
+            [
+              -75.48883341530018,
+              5.089137314736255
+            ],
+            [
+              -75.48883515992028,
+              5.089139232039922
+            ],
+            [
+              -75.48883708481198,
+              5.0891409697826795
+            ],
+            [
+              -75.48883917143749,
+              5.08914251122911
+            ],
+            [
+              -75.48884139970146,
+              5.089143841534242
+            ],
+            [
+              -75.4888437481445,
+              5.089144947886507
+            ],
+            [
+              -75.48884619414983,
+              5.089145819631129
+            ],
+            [
+              -75.48884871416107,
+              5.08914644837273
+            ],
+            [
+              -75.4888512839091,
+              5.089146828056181
+            ],
+            [
+              -75.4888538786459,
+              5.089146955024924
+            ]
+          ]
+        ]
+      },
+      "id": 171
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "codigo_manzana": 316,
+        "sector": "san_sebastian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48881950000585,
+              5.089324364868665
+            ],
+            [
+              -75.48882232133539,
+              5.089324226812053
+            ],
+            [
+              -75.48882511549398,
+              5.089323813971779
+            ],
+            [
+              -75.48882785557235,
+              5.08932313032372
+            ],
+            [
+              -75.48883051518203,
+              5.089322182451781
+            ],
+            [
+              -75.48883306870954,
+              5.08932097948449
+            ],
+            [
+              -75.488835491563,
+              5.089319533007079
+            ],
+            [
+              -75.488837760409,
+              5.089317856949919
+            ],
+            [
+              -75.4888398533973,
+              5.089315967454358
+            ],
+            [
+              -75.48884175037131,
+              5.089313882717274
+            ],
+            [
+              -75.48884343306213,
+              5.089311622815823
+            ],
+            [
+              -75.48884488526451,
+              5.089309209514099
+            ],
+            [
+              -75.48884609299294,
+              5.0893066660535125
+            ],
+            [
+              -75.48884704461636,
+              5.089304016928984
+            ],
+            [
+              -75.48884773097014,
+              5.089301287653032
+            ],
+            [
+              -75.48884814544428,
+              5.089298504510075
+            ],
+            [
+              -75.48884828404717,
+              5.089295694303303
+            ],
+            [
+              -75.48884814544402,
+              5.089292884096544
+            ],
+            [
+              -75.48884773096965,
+              5.089290100953623
+            ],
+            [
+              -75.48884704461567,
+              5.089287371677731
+            ],
+            [
+              -75.48884609299205,
+              5.0892847225532805
+            ],
+            [
+              -75.48884488526343,
+              5.089282179092792
+            ],
+            [
+              -75.48884343306094,
+              5.089279765791177
+            ],
+            [
+              -75.48884175037006,
+              5.0892775058898465
+            ],
+            [
+              -75.48883985339603,
+              5.0892754211528874
+            ],
+            [
+              -75.48883776040773,
+              5.08927353165745
+            ],
+            [
+              -75.4888354915618,
+              5.08927185560041
+            ],
+            [
+              -75.48883306870847,
+              5.08927040912311
+            ],
+            [
+              -75.48883051518112,
+              5.089269206155915
+            ],
+            [
+              -75.48882785557164,
+              5.089268258284057
+            ],
+            [
+              -75.4888251154935,
+              5.0892675746360565
+            ],
+            [
+              -75.48882232133514,
+              5.089267161795818
+            ],
+            [
+              -75.48881950000585,
+              5.089267023739219
+            ],
+            [
+              -75.48881667867657,
+              5.089267161795818
+            ],
+            [
+              -75.48881388451821,
+              5.0892675746360565
+            ],
+            [
+              -75.48881114444006,
+              5.089268258284057
+            ],
+            [
+              -75.48880848483059,
+              5.089269206155915
+            ],
+            [
+              -75.48880593130323,
+              5.08927040912311
+            ],
+            [
+              -75.48880350844989,
+              5.08927185560041
+            ],
+            [
+              -75.48880123960397,
+              5.08927353165745
+            ],
+            [
+              -75.48879914661568,
+              5.0892754211528874
+            ],
+            [
+              -75.48879724964165,
+              5.0892775058898465
+            ],
+            [
+              -75.48879556695076,
+              5.089279765791177
+            ],
+            [
+              -75.48879411474827,
+              5.089282179092792
+            ],
+            [
+              -75.48879290701966,
+              5.0892847225532805
+            ],
+            [
+              -75.48879195539605,
+              5.089287371677731
+            ],
+            [
+              -75.48879126904205,
+              5.089290100953623
+            ],
+            [
+              -75.48879085456768,
+              5.089292884096544
+            ],
+            [
+              -75.48879071596453,
+              5.089295694303303
+            ],
+            [
+              -75.48879085456744,
+              5.089298504510075
+            ],
+            [
+              -75.48879126904157,
+              5.089301287653032
+            ],
+            [
+              -75.48879195539533,
+              5.089304016928984
+            ],
+            [
+              -75.48879290701876,
+              5.0893066660535125
+            ],
+            [
+              -75.48879411474721,
+              5.089309209514099
+            ],
+            [
+              -75.48879556694958,
+              5.089311622815823
+            ],
+            [
+              -75.48879724964038,
+              5.089313882717274
+            ],
+            [
+              -75.48879914661441,
+              5.089315967454358
+            ],
+            [
+              -75.48880123960272,
+              5.089317856949919
+            ],
+            [
+              -75.48880350844871,
+              5.089319533007079
+            ],
+            [
+              -75.48880593130217,
+              5.08932097948449
+            ],
+            [
+              -75.48880848482966,
+              5.089322182451781
+            ],
+            [
+              -75.48881114443935,
+              5.08932313032372
+            ],
+            [
+              -75.48881388451771,
+              5.089323813971779
+            ],
+            [
+              -75.48881667867632,
+              5.089324226812053
+            ],
+            [
+              -75.48881950000585,
+              5.089324364868665
+            ]
+          ]
+        ]
+      },
+      "id": 172
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector": "san_sebastian",
+        "codigo_manzana": 300
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.49040945791816,
+              5.090623214759106
+            ],
+            [
+              -75.49041060885507,
+              5.090623158440224
+            ],
+            [
+              -75.49041174870784,
+              5.09062299002596
+            ],
+            [
+              -75.49041286649904,
+              5.090622711138233
+            ],
+            [
+              -75.49041395146375,
+              5.090622324462888
+            ],
+            [
+              -75.49041499315315,
+              5.090621833723817
+            ],
+            [
+              -75.49041598153522,
+              5.090621243647108
+            ],
+            [
+              -75.49041690709129,
+              5.090620559915522
+            ],
+            [
+              -75.49041776090773,
+              5.0906197891137674
+            ],
+            [
+              -75.49041853476186,
+              5.090618938665087
+            ],
+            [
+              -75.49041922120101,
+              5.090618016759767
+            ],
+            [
+              -75.4904198136144,
+              5.090617032276261
+            ],
+            [
+              -75.49042030629677,
+              5.090615994695681
+            ],
+            [
+              -75.49042069450333,
+              5.090614914010498
+            ],
+            [
+              -75.49042097449544,
+              5.090613800628301
+            ],
+            [
+              -75.4904211435766,
+              5.090612665271567
+            ],
+            [
+              -75.49042120011848,
+              5.090611518874404
+            ],
+            [
+              -75.49042114357654,
+              5.090610372477244
+            ],
+            [
+              -75.49042097449534,
+              5.090609237120516
+            ],
+            [
+              -75.49042069450321,
+              5.090608123738328
+            ],
+            [
+              -75.49042030629663,
+              5.090607043053159
+            ],
+            [
+              -75.49041981361422,
+              5.090606005472595
+            ],
+            [
+              -75.49041922120081,
+              5.090605020989107
+            ],
+            [
+              -75.49041853476164,
+              5.090604099083808
+            ],
+            [
+              -75.49041776090752,
+              5.090603248635148
+            ],
+            [
+              -75.49041690709109,
+              5.090602477833414
+            ],
+            [
+              -75.49041598153502,
+              5.090601794101848
+            ],
+            [
+              -75.49041499315298,
+              5.090601204025157
+            ],
+            [
+              -75.49041395146361,
+              5.090600713286102
+            ],
+            [
+              -75.49041286649893,
+              5.09060032661077
+            ],
+            [
+              -75.49041174870776,
+              5.090600047723055
+            ],
+            [
+              -75.49041060885504,
+              5.090599879308796
+            ],
+            [
+              -75.49040945791816,
+              5.090599822989915
+            ],
+            [
+              -75.49040830698128,
+              5.090599879308796
+            ],
+            [
+              -75.49040716712857,
+              5.090600047723055
+            ],
+            [
+              -75.4904060493374,
+              5.09060032661077
+            ],
+            [
+              -75.49040496437271,
+              5.090600713286102
+            ],
+            [
+              -75.49040392268334,
+              5.090601204025157
+            ],
+            [
+              -75.4904029343013,
+              5.090601794101848
+            ],
+            [
+              -75.49040200874524,
+              5.090602477833414
+            ],
+            [
+              -75.49040115492879,
+              5.090603248635148
+            ],
+            [
+              -75.49040038107468,
+              5.090604099083808
+            ],
+            [
+              -75.49039969463551,
+              5.090605020989107
+            ],
+            [
+              -75.4903991022221,
+              5.090606005472595
+            ],
+            [
+              -75.49039860953971,
+              5.090607043053159
+            ],
+            [
+              -75.49039822133311,
+              5.090608123738328
+            ],
+            [
+              -75.49039794134097,
+              5.090609237120516
+            ],
+            [
+              -75.49039777225977,
+              5.090610372477244
+            ],
+            [
+              -75.49039771571785,
+              5.090611518874404
+            ],
+            [
+              -75.49039777225973,
+              5.090612665271567
+            ],
+            [
+              -75.49039794134089,
+              5.090613800628301
+            ],
+            [
+              -75.49039822133298,
+              5.090614914010498
+            ],
+            [
+              -75.49039860953955,
+              5.090615994695681
+            ],
+            [
+              -75.49039910222193,
+              5.090617032276261
+            ],
+            [
+              -75.49039969463531,
+              5.090618016759767
+            ],
+            [
+              -75.49040038107447,
+              5.090618938665087
+            ],
+            [
+              -75.49040115492858,
+              5.0906197891137674
+            ],
+            [
+              -75.49040200874504,
+              5.090620559915522
+            ],
+            [
+              -75.49040293430109,
+              5.090621243647108
+            ],
+            [
+              -75.49040392268317,
+              5.090621833723817
+            ],
+            [
+              -75.49040496437257,
+              5.090622324462888
+            ],
+            [
+              -75.49040604933727,
+              5.090622711138233
+            ],
+            [
+              -75.49040716712847,
+              5.09062299002596
+            ],
+            [
+              -75.49040830698124,
+              5.090623158440224
+            ],
+            [
+              -75.49040945791816,
+              5.090623214759106
+            ]
+          ]
+        ]
+      },
+      "id": 173
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector": "san_sebastian",
+        "codigo_manzana": 301
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.49021218895938,
+              5.090667659116722
+            ],
+            [
+              -75.4902133398963,
+              5.0906676027978435
+            ],
+            [
+              -75.49021447974907,
+              5.090667434383591
+            ],
+            [
+              -75.49021559754027,
+              5.0906671554958836
+            ],
+            [
+              -75.49021668250496,
+              5.090666768820564
+            ],
+            [
+              -75.49021772419438,
+              5.090666278081528
+            ],
+            [
+              -75.49021871257645,
+              5.09066568800486
+            ],
+            [
+              -75.49021963813252,
+              5.090665004273321
+            ],
+            [
+              -75.49022049194896,
+              5.090664233471619
+            ],
+            [
+              -75.49022126580309,
+              5.090663383022998
+            ],
+            [
+              -75.49022195224224,
+              5.090662461117742
+            ],
+            [
+              -75.49022254465562,
+              5.0906614766343035
+            ],
+            [
+              -75.490223037338,
+              5.090660439053796
+            ],
+            [
+              -75.49022342554456,
+              5.090659358368687
+            ],
+            [
+              -75.49022370553666,
+              5.090658244986566
+            ],
+            [
+              -75.49022387461783,
+              5.090657109629912
+            ],
+            [
+              -75.4902239311597,
+              5.090655963232828
+            ],
+            [
+              -75.49022387461778,
+              5.0906548168357455
+            ],
+            [
+              -75.49022370553656,
+              5.090653681479097
+            ],
+            [
+              -75.49022342554444,
+              5.090652568096986
+            ],
+            [
+              -75.49022303733784,
+              5.09065148741189
+            ],
+            [
+              -75.49022254465545,
+              5.090650449831399
+            ],
+            [
+              -75.49022195224204,
+              5.090649465347978
+            ],
+            [
+              -75.49022126580287,
+              5.090648543442742
+            ],
+            [
+              -75.49022049194875,
+              5.090647692994142
+            ],
+            [
+              -75.49021963813232,
+              5.090646922192461
+            ],
+            [
+              -75.49021871257625,
+              5.090646238460941
+            ],
+            [
+              -75.49021772419421,
+              5.0906456483842915
+            ],
+            [
+              -75.49021668250484,
+              5.090645157645271
+            ],
+            [
+              -75.49021559754016,
+              5.090644770969965
+            ],
+            [
+              -75.49021447974899,
+              5.090644492082268
+            ],
+            [
+              -75.49021333989626,
+              5.090644323668021
+            ],
+            [
+              -75.49021218895938,
+              5.090644267349146
+            ],
+            [
+              -75.49021103802251,
+              5.090644323668021
+            ],
+            [
+              -75.4902098981698,
+              5.090644492082268
+            ],
+            [
+              -75.49020878037862,
+              5.090644770969965
+            ],
+            [
+              -75.49020769541393,
+              5.090645157645271
+            ],
+            [
+              -75.49020665372456,
+              5.0906456483842915
+            ],
+            [
+              -75.49020566534251,
+              5.090646238460941
+            ],
+            [
+              -75.49020473978646,
+              5.090646922192461
+            ],
+            [
+              -75.49020388597002,
+              5.090647692994142
+            ],
+            [
+              -75.4902031121159,
+              5.090648543442742
+            ],
+            [
+              -75.49020242567673,
+              5.090649465347978
+            ],
+            [
+              -75.49020183326333,
+              5.090650449831399
+            ],
+            [
+              -75.49020134058092,
+              5.09065148741189
+            ],
+            [
+              -75.49020095237432,
+              5.090652568096986
+            ],
+            [
+              -75.4902006723822,
+              5.090653681479097
+            ],
+            [
+              -75.49020050330098,
+              5.0906548168357455
+            ],
+            [
+              -75.49020044675908,
+              5.090655963232828
+            ],
+            [
+              -75.49020050330095,
+              5.090657109629912
+            ],
+            [
+              -75.49020067238212,
+              5.090658244986566
+            ],
+            [
+              -75.49020095237421,
+              5.090659358368687
+            ],
+            [
+              -75.49020134058078,
+              5.090660439053796
+            ],
+            [
+              -75.49020183326314,
+              5.0906614766343035
+            ],
+            [
+              -75.49020242567654,
+              5.090662461117742
+            ],
+            [
+              -75.49020311211568,
+              5.090663383022998
+            ],
+            [
+              -75.4902038859698,
+              5.090664233471619
+            ],
+            [
+              -75.49020473978626,
+              5.090665004273321
+            ],
+            [
+              -75.49020566534232,
+              5.09066568800486
+            ],
+            [
+              -75.4902066537244,
+              5.090666278081528
+            ],
+            [
+              -75.49020769541379,
+              5.090666768820564
+            ],
+            [
+              -75.4902087803785,
+              5.0906671554958836
+            ],
+            [
+              -75.4902098981697,
+              5.090667434383591
+            ],
+            [
+              -75.49021103802247,
+              5.0906676027978435
+            ],
+            [
+              -75.49021218895938,
+              5.090667659116722
+            ]
+          ]
+        ]
+      },
+      "id": 174
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector": "san_sebastian",
+        "codigo_manzana": 302
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.49044468451757,
+              5.090419899941128
+            ],
+            [
+              -75.49044608469273,
+              5.090419831426231
+            ],
+            [
+              -75.49044747138346,
+              5.090419626541372
+            ],
+            [
+              -75.49044883123513,
+              5.0904192872597065
+            ],
+            [
+              -75.49045015115163,
+              5.090418816848702
+            ],
+            [
+              -75.49045141842147,
+              5.090418219838675
+            ],
+            [
+              -75.49045262084013,
+              5.090417501979157
+            ],
+            [
+              -75.49045374682765,
+              5.0904166701835285
+            ],
+            [
+              -75.49045478554018,
+              5.0904157324624375
+            ],
+            [
+              -75.49045572697433,
+              5.090414697846651
+            ],
+            [
+              -75.49045656206357,
+              5.090413576300082
+            ],
+            [
+              -75.49045728276556,
+              5.090412378623842
+            ],
+            [
+              -75.49045788213952,
+              5.090411116352207
+            ],
+            [
+              -75.49045835441316,
+              5.090409801641542
+            ],
+            [
+              -75.49045869503824,
+              5.09040844715323
+            ],
+            [
+              -75.49045890073434,
+              5.090407065931733
+            ],
+            [
+              -75.4904589695205,
+              5.090405671278972
+            ],
+            [
+              -75.49045890073428,
+              5.090404276626213
+            ],
+            [
+              -75.49045869503813,
+              5.0904028954047265
+            ],
+            [
+              -75.49045835441301,
+              5.090401540916429
+            ],
+            [
+              -75.4904578821393,
+              5.090400226205783
+            ],
+            [
+              -75.49045728276529,
+              5.090398963934171
+            ],
+            [
+              -75.49045656206329,
+              5.090397766257959
+            ],
+            [
+              -75.49045572697402,
+              5.09039664471142
+            ],
+            [
+              -75.49045478553985,
+              5.090395610095663
+            ],
+            [
+              -75.49045374682736,
+              5.090394672374604
+            ],
+            [
+              -75.49045262083983,
+              5.090393840579004
+            ],
+            [
+              -75.4904514184212,
+              5.090393122719513
+            ],
+            [
+              -75.49045015115142,
+              5.09039252570951
+            ],
+            [
+              -75.49044883123494,
+              5.090392055298525
+            ],
+            [
+              -75.49044747138333,
+              5.0903917160168755
+            ],
+            [
+              -75.49044608469268,
+              5.090391511132025
+            ],
+            [
+              -75.49044468451757,
+              5.09039144261713
+            ],
+            [
+              -75.49044328434246,
+              5.090391511132025
+            ],
+            [
+              -75.4904418976518,
+              5.0903917160168755
+            ],
+            [
+              -75.49044053780018,
+              5.090392055298525
+            ],
+            [
+              -75.49043921788372,
+              5.09039252570951
+            ],
+            [
+              -75.49043795061392,
+              5.090393122719513
+            ],
+            [
+              -75.4904367481953,
+              5.090393840579004
+            ],
+            [
+              -75.49043562220778,
+              5.090394672374604
+            ],
+            [
+              -75.49043458349527,
+              5.090395610095663
+            ],
+            [
+              -75.4904336420611,
+              5.09039664471142
+            ],
+            [
+              -75.49043280697185,
+              5.090397766257959
+            ],
+            [
+              -75.49043208626985,
+              5.090398963934171
+            ],
+            [
+              -75.49043148689583,
+              5.090400226205783
+            ],
+            [
+              -75.49043101462213,
+              5.090401540916429
+            ],
+            [
+              -75.490430673997,
+              5.0904028954047265
+            ],
+            [
+              -75.49043046830084,
+              5.090404276626213
+            ],
+            [
+              -75.49043039951462,
+              5.090405671278972
+            ],
+            [
+              -75.49043046830079,
+              5.090407065931733
+            ],
+            [
+              -75.49043067399688,
+              5.09040844715323
+            ],
+            [
+              -75.49043101462196,
+              5.090409801641542
+            ],
+            [
+              -75.4904314868956,
+              5.090411116352207
+            ],
+            [
+              -75.49043208626956,
+              5.090412378623842
+            ],
+            [
+              -75.49043280697155,
+              5.090413576300082
+            ],
+            [
+              -75.49043364206081,
+              5.090414697846651
+            ],
+            [
+              -75.49043458349496,
+              5.0904157324624375
+            ],
+            [
+              -75.49043562220747,
+              5.0904166701835285
+            ],
+            [
+              -75.49043674819501,
+              5.090417501979157
+            ],
+            [
+              -75.49043795061365,
+              5.090418219838675
+            ],
+            [
+              -75.49043921788349,
+              5.090418816848702
+            ],
+            [
+              -75.49044053780001,
+              5.0904192872597065
+            ],
+            [
+              -75.49044189765168,
+              5.090419626541372
+            ],
+            [
+              -75.4904432843424,
+              5.090419831426231
+            ],
+            [
+              -75.49044468451757,
+              5.090419899941128
+            ]
+          ]
+        ]
+      },
+      "id": 175
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector": "san_sebastian",
+        "codigo_manzana": 304
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.4900454497203,
+              5.0905305906592435
+            ],
+            [
+              -75.4900469236387,
+              5.090530518535874
+            ],
+            [
+              -75.49004838336246,
+              5.090530302860351
+            ],
+            [
+              -75.49004981483364,
+              5.090529945709749
+            ],
+            [
+              -75.49005120426641,
+              5.090529450523623
+            ],
+            [
+              -75.49005253827973,
+              5.090528822070887
+            ],
+            [
+              -75.49005380402635,
+              5.090528066403885
+            ],
+            [
+              -75.49005498931643,
+              5.090527190800103
+            ],
+            [
+              -75.49005608273497,
+              5.090526203692085
+            ],
+            [
+              -75.49005707375177,
+              5.090525114586221
+            ],
+            [
+              -75.49005795282278,
+              5.0905239339711965
+            ],
+            [
+              -75.49005871148209,
+              5.09052267321698
+            ],
+            [
+              -75.49005934242336,
+              5.090521344465325
+            ],
+            [
+              -75.49005983957032,
+              5.090519960512835
+            ],
+            [
+              -75.49006019813514,
+              5.090518534687731
+            ],
+            [
+              -75.49006041466467,
+              5.090517080721487
+            ],
+            [
+              -75.4900604870736,
+              5.090515612616595
+            ],
+            [
+              -75.49006041466461,
+              5.0905141445117055
+            ],
+            [
+              -75.49006019813501,
+              5.090512690545471
+            ],
+            [
+              -75.49005983957012,
+              5.090511264720384
+            ],
+            [
+              -75.49005934242312,
+              5.090509880767915
+            ],
+            [
+              -75.4900587114818,
+              5.090508552016287
+            ],
+            [
+              -75.49005795282245,
+              5.0905072912621
+            ],
+            [
+              -75.49005707375143,
+              5.090506110647108
+            ],
+            [
+              -75.49005608273461,
+              5.090505021541279
+            ],
+            [
+              -75.49005498931609,
+              5.090504034433295
+            ],
+            [
+              -75.49005380402602,
+              5.090503158829545
+            ],
+            [
+              -75.49005253827944,
+              5.090502403162573
+            ],
+            [
+              -75.49005120426615,
+              5.090501774709865
+            ],
+            [
+              -75.49004981483345,
+              5.090501279523759
+            ],
+            [
+              -75.49004838336234,
+              5.090500922373174
+            ],
+            [
+              -75.49004692363864,
+              5.090500706697661
+            ],
+            [
+              -75.4900454497203,
+              5.090500634574294
+            ],
+            [
+              -75.49004397580197,
+              5.090500706697661
+            ],
+            [
+              -75.49004251607828,
+              5.090500922373174
+            ],
+            [
+              -75.49004108460714,
+              5.090501279523759
+            ],
+            [
+              -75.49003969517445,
+              5.090501774709865
+            ],
+            [
+              -75.49003836116117,
+              5.090502403162573
+            ],
+            [
+              -75.49003709541458,
+              5.090503158829545
+            ],
+            [
+              -75.49003591012453,
+              5.090504034433295
+            ],
+            [
+              -75.490034816706,
+              5.090505021541279
+            ],
+            [
+              -75.49003382568918,
+              5.090506110647108
+            ],
+            [
+              -75.49003294661814,
+              5.0905072912621
+            ],
+            [
+              -75.4900321879588,
+              5.090508552016287
+            ],
+            [
+              -75.49003155701749,
+              5.090509880767915
+            ],
+            [
+              -75.49003105987049,
+              5.090511264720384
+            ],
+            [
+              -75.49003070130559,
+              5.090512690545471
+            ],
+            [
+              -75.490030484776,
+              5.0905141445117055
+            ],
+            [
+              -75.490030412367,
+              5.090515612616595
+            ],
+            [
+              -75.49003048477593,
+              5.090517080721487
+            ],
+            [
+              -75.49003070130547,
+              5.090518534687731
+            ],
+            [
+              -75.49003105987029,
+              5.090519960512835
+            ],
+            [
+              -75.49003155701723,
+              5.090521344465325
+            ],
+            [
+              -75.49003218795852,
+              5.09052267321698
+            ],
+            [
+              -75.49003294661783,
+              5.0905239339711965
+            ],
+            [
+              -75.49003382568884,
+              5.090525114586221
+            ],
+            [
+              -75.49003481670563,
+              5.090526203692085
+            ],
+            [
+              -75.49003591012418,
+              5.090527190800103
+            ],
+            [
+              -75.49003709541427,
+              5.090528066403885
+            ],
+            [
+              -75.49003836116088,
+              5.090528822070887
+            ],
+            [
+              -75.4900396951742,
+              5.090529450523623
+            ],
+            [
+              -75.49004108460696,
+              5.090529945709749
+            ],
+            [
+              -75.49004251607815,
+              5.090530302860351
+            ],
+            [
+              -75.49004397580191,
+              5.090530518535874
+            ],
+            [
+              -75.4900454497203,
+              5.0905305906592435
+            ]
+          ]
+        ]
+      },
+      "id": 176
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector": "san_sebastian",
+        "codigo_manzana": 305
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.48985757452108,
+              5.0905743236674805
+            ],
+            [
+              -75.48985874825098,
+              5.090574266233263
+            ],
+            [
+              -75.48985991067723,
+              5.090574094483734
+            ],
+            [
+              -75.489861050605,
+              5.090573810072935
+            ],
+            [
+              -75.48986215705618,
+              5.090573415739898
+            ],
+            [
+              -75.48986321937507,
+              5.090572915282265
+            ],
+            [
+              -75.4898642273309,
+              5.090572313519718
+            ],
+            [
+              -75.48986517121654,
+              5.0905716162475585
+            ],
+            [
+              -75.48986604194184,
+              5.0905708301809
+            ],
+            [
+              -75.48986683112125,
+              5.090569962889993
+            ],
+            [
+              -75.48986753115453,
+              5.090569022727325
+            ],
+            [
+              -75.48986813529999,
+              5.090568018747176
+            ],
+            [
+              -75.48986863773938,
+              5.090566960618423
+            ],
+            [
+              -75.48986903363392,
+              5.090565858531426
+            ],
+            [
+              -75.48986931917094,
+              5.0905647230998845
+            ],
+            [
+              -75.48986949160057,
+              5.090563565258625
+            ],
+            [
+              -75.4898695492622,
+              5.090562396158294
+            ],
+            [
+              -75.48986949160052,
+              5.0905612270579645
+            ],
+            [
+              -75.48986931917085,
+              5.090560069216712
+            ],
+            [
+              -75.4898690336338,
+              5.09055893378518
+            ],
+            [
+              -75.48986863773922,
+              5.090557831698198
+            ],
+            [
+              -75.48986813529982,
+              5.090556773569462
+            ],
+            [
+              -75.48986753115433,
+              5.090555769589332
+            ],
+            [
+              -75.48986683112102,
+              5.090554829426685
+            ],
+            [
+              -75.48986604194161,
+              5.090553962135799
+            ],
+            [
+              -75.48986517121632,
+              5.090553176069163
+            ],
+            [
+              -75.48986422733068,
+              5.090552478797024
+            ],
+            [
+              -75.48986321937487,
+              5.090551877034495
+            ],
+            [
+              -75.48986215705604,
+              5.09055137657688
+            ],
+            [
+              -75.48986105060487,
+              5.090550982243856
+            ],
+            [
+              -75.48985991067714,
+              5.090550697833067
+            ],
+            [
+              -75.48985874825094,
+              5.090550526083544
+            ],
+            [
+              -75.48985757452108,
+              5.090550468649329
+            ],
+            [
+              -75.48985640079121,
+              5.090550526083544
+            ],
+            [
+              -75.48985523836502,
+              5.090550697833067
+            ],
+            [
+              -75.48985409843729,
+              5.090550982243856
+            ],
+            [
+              -75.48985299198613,
+              5.09055137657688
+            ],
+            [
+              -75.48985192966728,
+              5.090551877034495
+            ],
+            [
+              -75.48985092171147,
+              5.090552478797024
+            ],
+            [
+              -75.48984997782584,
+              5.090553176069163
+            ],
+            [
+              -75.48984910710055,
+              5.090553962135799
+            ],
+            [
+              -75.48984831792113,
+              5.090554829426685
+            ],
+            [
+              -75.48984761788782,
+              5.090555769589332
+            ],
+            [
+              -75.48984701374233,
+              5.090556773569462
+            ],
+            [
+              -75.48984651130293,
+              5.090557831698198
+            ],
+            [
+              -75.48984611540835,
+              5.09055893378518
+            ],
+            [
+              -75.48984582987131,
+              5.090560069216712
+            ],
+            [
+              -75.48984565744165,
+              5.0905612270579645
+            ],
+            [
+              -75.48984559977997,
+              5.090562396158294
+            ],
+            [
+              -75.48984565744159,
+              5.090563565258625
+            ],
+            [
+              -75.48984582987121,
+              5.0905647230998845
+            ],
+            [
+              -75.48984611540823,
+              5.090565858531426
+            ],
+            [
+              -75.48984651130279,
+              5.090566960618423
+            ],
+            [
+              -75.48984701374216,
+              5.090568018747176
+            ],
+            [
+              -75.48984761788762,
+              5.090569022727325
+            ],
+            [
+              -75.48984831792092,
+              5.090569962889993
+            ],
+            [
+              -75.48984910710033,
+              5.0905708301809
+            ],
+            [
+              -75.48984997782561,
+              5.0905716162475585
+            ],
+            [
+              -75.48985092171127,
+              5.090572313519718
+            ],
+            [
+              -75.4898519296671,
+              5.090572915282265
+            ],
+            [
+              -75.48985299198597,
+              5.090573415739898
+            ],
+            [
+              -75.48985409843716,
+              5.090573810072935
+            ],
+            [
+              -75.48985523836494,
+              5.090574094483734
+            ],
+            [
+              -75.48985640079117,
+              5.090574266233263
+            ],
+            [
+              -75.48985757452108,
+              5.0905743236674805
+            ]
+          ]
+        ]
+      },
+      "id": 177
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "sector": "san_sebastian",
+        "codigo_manzana": 303
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.49024037023878,
+              5.090471168248612
+            ],
+            [
+              -75.49024152117565,
+              5.09047111192972
+            ],
+            [
+              -75.49024266102835,
+              5.090470943515423
+            ],
+            [
+              -75.4902437788195,
+              5.090470664627646
+            ],
+            [
+              -75.49024486378416,
+              5.090470277952228
+            ],
+            [
+              -75.4902459054735,
+              5.090469787213066
+            ],
+            [
+              -75.49024689385553,
+              5.090469197136248
+            ],
+            [
+              -75.49024781941154,
+              5.0904685134045335
+            ],
+            [
+              -75.49024867322794,
+              5.090467742602636
+            ],
+            [
+              -75.49024944708202,
+              5.090466892153798
+            ],
+            [
+              -75.49025013352113,
+              5.0904659702483075
+            ],
+            [
+              -75.4902507259345,
+              5.090464985764618
+            ],
+            [
+              -75.49025121861685,
+              5.090463948183846
+            ],
+            [
+              -75.49025160682338,
+              5.090462867498462
+            ],
+            [
+              -75.49025188681547,
+              5.090461754116057
+            ],
+            [
+              -75.49025205589662,
+              5.0904606187591135
+            ],
+            [
+              -75.4902521124385,
+              5.090459472361737
+            ],
+            [
+              -75.49025205589659,
+              5.090458325964363
+            ],
+            [
+              -75.49025188681539,
+              5.090457190607426
+            ],
+            [
+              -75.49025160682326,
+              5.0904560772250305
+            ],
+            [
+              -75.4902512186167,
+              5.090454996539661
+            ],
+            [
+              -75.49025072593433,
+              5.0904539589589035
+            ],
+            [
+              -75.49025013352095,
+              5.090452974475233
+            ],
+            [
+              -75.49024944708181,
+              5.090452052569762
+            ],
+            [
+              -75.49024867322773,
+              5.090451202120945
+            ],
+            [
+              -75.49024781941132,
+              5.090450431319068
+            ],
+            [
+              -75.49024689385533,
+              5.090449747587374
+            ],
+            [
+              -75.49024590547332,
+              5.090449157510573
+            ],
+            [
+              -75.490244863784,
+              5.090448666771429
+            ],
+            [
+              -75.49024377881938,
+              5.090448280096023
+            ],
+            [
+              -75.49024266102826,
+              5.090448001208256
+            ],
+            [
+              -75.49024152117559,
+              5.090447832793966
+            ],
+            [
+              -75.49024037023878,
+              5.090447776475075
+            ],
+            [
+              -75.49023921930197,
+              5.090447832793966
+            ],
+            [
+              -75.4902380794493,
+              5.090448001208256
+            ],
+            [
+              -75.4902369616582,
+              5.090448280096023
+            ],
+            [
+              -75.49023587669356,
+              5.090448666771429
+            ],
+            [
+              -75.49023483500424,
+              5.090449157510573
+            ],
+            [
+              -75.49023384662225,
+              5.090449747587374
+            ],
+            [
+              -75.49023292106625,
+              5.090450431319068
+            ],
+            [
+              -75.49023206724985,
+              5.090451202120945
+            ],
+            [
+              -75.49023129339577,
+              5.090452052569762
+            ],
+            [
+              -75.49023060695663,
+              5.090452974475233
+            ],
+            [
+              -75.49023001454324,
+              5.0904539589589035
+            ],
+            [
+              -75.49022952186087,
+              5.090454996539661
+            ],
+            [
+              -75.4902291336543,
+              5.0904560772250305
+            ],
+            [
+              -75.49022885366219,
+              5.090457190607426
+            ],
+            [
+              -75.49022868458098,
+              5.090458325964363
+            ],
+            [
+              -75.49022862803908,
+              5.090459472361737
+            ],
+            [
+              -75.49022868458094,
+              5.0904606187591135
+            ],
+            [
+              -75.49022885366209,
+              5.090461754116057
+            ],
+            [
+              -75.49022913365418,
+              5.090462867498462
+            ],
+            [
+              -75.49022952186073,
+              5.090463948183846
+            ],
+            [
+              -75.49023001454307,
+              5.090464985764618
+            ],
+            [
+              -75.49023060695644,
+              5.0904659702483075
+            ],
+            [
+              -75.49023129339555,
+              5.090466892153798
+            ],
+            [
+              -75.49023206724962,
+              5.090467742602636
+            ],
+            [
+              -75.49023292106602,
+              5.0904685134045335
+            ],
+            [
+              -75.49023384662205,
+              5.090469197136248
+            ],
+            [
+              -75.49023483500407,
+              5.090469787213066
+            ],
+            [
+              -75.4902358766934,
+              5.090470277952228
+            ],
+            [
+              -75.49023696165807,
+              5.090470664627646
+            ],
+            [
+              -75.49023807944923,
+              5.090470943515423
+            ],
+            [
+              -75.49023921930191,
+              5.09047111192972
+            ],
+            [
+              -75.49024037023878,
+              5.090471168248612
+            ]
+          ]
+        ]
+      },
+      "id": 178
     }
   ]
 }

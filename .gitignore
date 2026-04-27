@@ -4,3 +4,4 @@ __pycache__/
 *.pyo
 data/auth.db
 data/progreso.json
+.streamlit/secrets.toml

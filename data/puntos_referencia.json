@@ -33,5 +33,40 @@
         "lon": -75.49005837243199, 
         "icon": "info-sign", 
         "color": "blue"
+    },
+    {
+        "nombre": "Casa del hermano Ovidio", 
+        "lat": 5.083072932505857, 
+        "lon": -75.48921289844374, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa hermana Diana Torres", 
+        "lat": 5.0868788789567105, 
+        "lon": -75.4904304045022, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa hermana Diana Torres", 
+        "lat": 5.084275938895473, 
+        "lon": -75.48932051932658, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa hermana Diana Torres", 
+        "lat": 5.089538215431745, 
+        "lon": -75.48805960612421, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa hermana Diana Torres", 
+        "lat": 5.078609332911171, 
+        "lon": -75.49087594166457, 
+        "icon": "info-sign", 
+        "color": "blue"
     }
 ]

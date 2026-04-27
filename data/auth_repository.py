@@ -1,175 +1,133 @@
-import sqlite3
 import bcrypt
 import secrets
-import os
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
+from supabase import Client
 
 
 class AuthRepository:
-    def __init__(self, db_path: str = "data/auth.db"):
-        self.db_path = db_path
-        os.makedirs(os.path.dirname(db_path), exist_ok=True)
-        self._init_db()
+    def __init__(self, client: Client):
+        self.client = client
+        self._init_admin()
 
-    def _conn(self):
-        conn = sqlite3.connect(self.db_path, check_same_thread=False)
-        conn.row_factory = sqlite3.Row
-        conn.execute("PRAGMA foreign_keys = ON")
-        return conn
-
-    def _init_db(self):
-        with self._conn() as conn:
-            conn.executescript("""
-                CREATE TABLE IF NOT EXISTS users (
-                    id       INTEGER PRIMARY KEY AUTOINCREMENT,
-                    username TEXT    UNIQUE NOT NULL,
-                    password_hash TEXT NOT NULL,
-                    role     TEXT    NOT NULL DEFAULT 'user',
-                    created_at TEXT  DEFAULT (datetime('now'))
-                );
-                CREATE TABLE IF NOT EXISTS access_windows (
-                    id         INTEGER PRIMARY KEY AUTOINCREMENT,
-                    user_id    INTEGER NOT NULL,
-                    start_date TEXT    NOT NULL,
-                    end_date   TEXT    NOT NULL,
-                    note       TEXT    DEFAULT '',
-                    created_at TEXT    DEFAULT (datetime('now')),
-                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-                );
-                CREATE TABLE IF NOT EXISTS sessions (
-                    token      TEXT    PRIMARY KEY,
-                    user_id    INTEGER NOT NULL,
-                    expires_at TEXT    NOT NULL,
-                    created_at TEXT    DEFAULT (datetime('now')),
-                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-                );
-            """)
-            exists = conn.execute(
-                "SELECT 1 FROM users WHERE username = 'admin'"
-            ).fetchone()
-            if not exists:
-                pw = bcrypt.hashpw(b"admin123", bcrypt.gensalt()).decode()
-                conn.execute(
-                    "INSERT INTO users (username, password_hash, role) VALUES (?,?,?)",
-                    ("admin", pw, "admin"),
-                )
+    def _init_admin(self):
+        response = self.client.table("users").select("id").eq("username", "admin").execute()
+        if not response.data:
+            pw = bcrypt.hashpw(b"admin123", bcrypt.gensalt()).decode()
+            self.client.table("users").insert({
+                "username": "admin",
+                "password_hash": pw,
+                "role": "admin",
+                "sector": "",
+            }).execute()
 
     # ── Auth ──────────────────────────────────────────────────────────────
 
     def verify(self, username: str, password: str) -> dict | None:
-        with self._conn() as conn:
-            row = conn.execute(
-                "SELECT id, password_hash, role FROM users WHERE username = ?",
-                (username,),
-            ).fetchone()
-        if not row:
+        response = self.client.table("users").select("id, password_hash, role, sector").eq("username", username).execute()
+        if not response.data:
             return None
+        row = response.data[0]
         if bcrypt.checkpw(password.encode(), row["password_hash"].encode()):
-            return {"id": row["id"], "username": username, "role": row["role"]}
+            return {"id": row["id"], "username": username, "role": row["role"], "sector": row.get("sector") or ""}
         return None
 
     # ── Sessions ──────────────────────────────────────────────────────────
 
     def create_session(self, user_id: int, days: int = 30) -> str:
         token = secrets.token_urlsafe(32)
-        expires = (datetime.utcnow() + timedelta(days=days)).isoformat()
-        with self._conn() as conn:
-            conn.execute(
-                "INSERT INTO sessions (token, user_id, expires_at) VALUES (?,?,?)",
-                (token, user_id, expires),
-            )
+        expires = (datetime.now(timezone.utc) + timedelta(days=days)).isoformat()
+        self.client.table("sessions").insert({
+            "token": token,
+            "user_id": user_id,
+            "expires_at": expires,
+        }).execute()
         return token
 
     def validate_session(self, token: str) -> dict | None:
-        now = datetime.utcnow().isoformat()
-        with self._conn() as conn:
-            row = conn.execute(
-                """SELECT u.id, u.username, u.role
-                   FROM sessions s JOIN users u ON s.user_id = u.id
-                   WHERE s.token = ? AND s.expires_at > ?""",
-                (token, now),
-            ).fetchone()
-        if row:
-            return {"id": row["id"], "username": row["username"], "role": row["role"]}
-        return None
+        now = datetime.now(timezone.utc).isoformat()
+        session_resp = self.client.table("sessions").select("user_id").eq("token", token).gt("expires_at", now).execute()
+        if not session_resp.data:
+            return None
+        user_id = session_resp.data[0]["user_id"]
+        user_resp = self.client.table("users").select("id, username, role, sector").eq("id", user_id).execute()
+        if not user_resp.data:
+            return None
+        row = user_resp.data[0]
+        return {"id": row["id"], "username": row["username"], "role": row["role"], "sector": row.get("sector") or ""}
 
     def delete_session(self, token: str):
-        with self._conn() as conn:
-            conn.execute("DELETE FROM sessions WHERE token = ?", (token,))
+        self.client.table("sessions").delete().eq("token", token).execute()
 
     # ── Users ─────────────────────────────────────────────────────────────
 
     def create_user(self, username: str, password: str, role: str = "user") -> bool:
         pw = bcrypt.hashpw(password.encode(), bcrypt.gensalt()).decode()
         try:
-            with self._conn() as conn:
-                conn.execute(
-                    "INSERT INTO users (username, password_hash, role) VALUES (?,?,?)",
-                    (username, pw, role),
-                )
-            return True
-        except sqlite3.IntegrityError:
+            response = self.client.table("users").insert({
+                "username": username,
+                "password_hash": pw,
+                "role": role,
+                "sector": "",
+            }).execute()
+            return bool(response.data)
+        except Exception:
             return False
 
     def change_password(self, user_id: int, new_password: str):
         pw = bcrypt.hashpw(new_password.encode(), bcrypt.gensalt()).decode()
-        with self._conn() as conn:
-            conn.execute(
-                "UPDATE users SET password_hash = ? WHERE id = ?",
-                (pw, user_id),
-            )
+        self.client.table("users").update({"password_hash": pw}).eq("id", user_id).execute()
 
     def delete_user(self, user_id: int):
-        with self._conn() as conn:
-            conn.execute(
-                "DELETE FROM users WHERE id = ? AND role != 'admin'",
-                (user_id,),
-            )
+        self.client.table("users").delete().eq("id", user_id).neq("role", "admin").execute()
 
     def list_users(self) -> list[dict]:
-        with self._conn() as conn:
-            rows = conn.execute(
-                "SELECT id, username, role, created_at FROM users ORDER BY role DESC, username"
-            ).fetchall()
-        return [dict(r) for r in rows]
+        response = self.client.table("users").select("id, username, role, sector, created_at").order("role", desc=True).order("username").execute()
+        return response.data or []
+
+    def set_user_sector(self, user_id: int, sector: str):
+        self.client.table("users").update({"sector": sector}).eq("id", user_id).execute()
 
     # ── Access windows ────────────────────────────────────────────────────
 
-    def add_access(self, user_id: int, start: date, end: date, note: str = ""):
-        with self._conn() as conn:
-            conn.execute(
-                "INSERT INTO access_windows (user_id, start_date, end_date, note) VALUES (?,?,?,?)",
-                (user_id, start.isoformat(), end.isoformat(), note),
-            )
+    def add_access(self, user_id: int, start: date, end: date, sector: str, note: str = ""):
+        self.client.table("access_windows").insert({
+            "user_id": user_id,
+            "start_date": start.isoformat(),
+            "end_date": end.isoformat(),
+            "sector": sector,
+            "note": note,
+        }).execute()
 
     def list_access(self, user_id: int) -> list[dict]:
-        with self._conn() as conn:
-            rows = conn.execute(
-                """SELECT id, start_date, end_date, note
-                   FROM access_windows WHERE user_id = ?
-                   ORDER BY start_date DESC""",
-                (user_id,),
-            ).fetchall()
-        return [dict(r) for r in rows]
+        response = (
+            self.client.table("access_windows")
+            .select("id, start_date, end_date, sector, note")
+            .eq("user_id", user_id)
+            .order("start_date", desc=True)
+            .execute()
+        )
+        return response.data or []
 
     def delete_access(self, window_id: int):
-        with self._conn() as conn:
-            conn.execute("DELETE FROM access_windows WHERE id = ?", (window_id,))
+        self.client.table("access_windows").delete().eq("id", window_id).execute()
 
     def cleanup_expired_access(self):
-        """Remove access windows whose end_date has already passed."""
         today = date.today().isoformat()
-        with self._conn() as conn:
-            conn.execute("DELETE FROM access_windows WHERE end_date < ?", (today,))
-            conn.execute("DELETE FROM sessions WHERE expires_at < datetime('now')")
+        now = datetime.now(timezone.utc).isoformat()
+        self.client.table("access_windows").delete().lt("end_date", today).execute()
+        self.client.table("sessions").delete().lt("expires_at", now).execute()
 
-    def can_edit_today(self, user_id: int) -> bool:
+    def get_today_access(self, user_id: int) -> tuple[bool, str]:
         today = date.today().isoformat()
-        with self._conn() as conn:
-            row = conn.execute(
-                """SELECT 1 FROM access_windows
-                   WHERE user_id = ? AND start_date <= ? AND end_date >= ?
-                   LIMIT 1""",
-                (user_id, today, today),
-            ).fetchone()
-        return row is not None
+        response = (
+            self.client.table("access_windows")
+            .select("sector")
+            .eq("user_id", user_id)
+            .lte("start_date", today)
+            .gte("end_date", today)
+            .limit(1)
+            .execute()
+        )
+        if response.data:
+            return True, response.data[0].get("sector") or ""
+        return False, ""

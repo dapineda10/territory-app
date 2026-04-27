@@ -4,6 +4,7 @@ from streamlit_folium import st_folium
 from services.geo_service import cargar_geometrias
 from data.repository import EstadoRepository
 from data.auth_repository import AuthRepository
+from data.supabase_client import get_supabase
 from folium.features import DivIcon
 from datetime import date
 import os
@@ -45,12 +46,12 @@ h1 { margin: 0 0 0.4rem !important; font-size: 1.2rem !important; }
 
 @st.cache_resource
 def get_auth_repo():
-    return AuthRepository()
+    return AuthRepository(get_supabase())
 
 
 @st.cache_resource
 def inicializar_datos():
-    repo = EstadoRepository()
+    repo = EstadoRepository(get_supabase())
     ruta = os.path.join("data", "zonas_manizales.geojson")
     padres, hijos = cargar_geometrias(ruta)
     for i, h in enumerate(hijos):
@@ -117,7 +118,7 @@ def dialogo_toggle(sector_id, estado_actual, repo):
 # =============================================================================
 
 @st.fragment
-def mostrar_mapa(can_edit: bool):
+def mostrar_mapa(can_edit: bool, user_sector: str = ""):
     repo, padres, hijos = inicializar_datos()
     estados = repo.obtener_estados()
     if "_force_estado_reload" in st.session_state:
@@ -133,31 +134,34 @@ def mostrar_mapa(can_edit: bool):
         s = h.get("sector", "")
         if s:
             sector_set.add(s)
-    all_sectors = sorted(sector_set)
+    all_sectors = sorted({str(s) for s in sector_set}, key=str)
 
     def sector_label(key):
-        if key == "_todos":
-            return "Todos los sectores"
-        return key.replace("_", " ").title()
+        return str(key).replace("_", " ").title()
 
-    selected_sector = st.selectbox(
-        "Sector",
-        ["_todos"] + all_sectors,
-        format_func=sector_label,
-        key="sector_selector",
-        label_visibility="collapsed",
-    )
+    is_admin = st.session_state.get("user", {}).get("role") == "admin"
+
+    if is_admin:
+        selected_sector = st.selectbox(
+            "Sector",
+            all_sectors,
+            format_func=sector_label,
+            key="sector_selector",
+            label_visibility="collapsed",
+        )
+    else:
+        if not user_sector or user_sector not in all_sectors:
+            st.error("No tienes acceso a ningún sector para hoy. Contacta al administrador.")
+            return
+        selected_sector = user_sector
+        st.caption(f"📍 {sector_label(selected_sector)}")
 
     sector_changed = st.session_state.get("_prev_sector") != selected_sector
     if sector_changed:
         st.session_state["_prev_sector"] = selected_sector
 
-    if selected_sector == "_todos":
-        hijos_vis = hijos
-        padres_vis = padres
-    else:
-        hijos_vis = [h for h in hijos if h.get("sector") == selected_sector]
-        padres_vis = [p for p in padres if p.get("sector_type") == selected_sector]
+    hijos_vis = [h for h in hijos if str(h.get("sector", "")) == selected_sector]
+    padres_vis = [p for p in padres if str(p.get("sector_type", "")) == selected_sector]
 
     total = len(hijos_vis)
     completadas = sum(1 for h in hijos_vis if estados.get(str(h.get("id"))) == "completado")
@@ -166,6 +170,16 @@ def mostrar_mapa(can_edit: bool):
 
     if not can_edit:
         st.info("🔒 Solo visualización — sin acceso de edición para hoy.", icon="🔒")
+
+    if "map_center" not in st.session_state or sector_changed:
+        all_coords = [c for p in padres_vis for c in p["coords"]]
+        all_coords += [h["coords"][0] for h in hijos_vis]
+        if all_coords:
+            lats = [c[0] for c in all_coords]
+            lons = [c[1] for c in all_coords]
+            span = max(max(lats) - min(lats), max(lons) - min(lons))
+            st.session_state["map_center"] = [(min(lats) + max(lats)) / 2, (min(lons) + max(lons)) / 2]
+            st.session_state["map_zoom"] = max(12, min(int(math.log2(1125 / max(span, 0.001))), 18))
 
     center = st.session_state.get("map_center", [5.086, -75.488])
     zoom = st.session_state.get("map_zoom", 17)
@@ -208,8 +222,6 @@ def mostrar_mapa(can_edit: bool):
             fill_color=color_relleno,
             fill_opacity=0.4,
             weight=3,
-            popup=folium.Popup(p.get("nombre", cat.title()), max_width=250),
-            tooltip=cat.title(),
         ).add_to(m)
 
     for hijo in hijos_vis:
@@ -228,29 +240,6 @@ def mostrar_mapa(can_edit: bool):
             ),
         ).add_to(m)
 
-    # Track how many times this fragment has run in this session.
-    # st_folium fires ONE initial setComponentValue() when the Leaflet map
-    # first loads, which triggers a fragment rerun (run #1). By applying
-    # fit_bounds on both run #0 and run #1 the map rebuilds at the exact
-    # same position, making that rerun invisible to the user.
-    run_num = st.session_state.get("_map_run_num", 0)
-    st.session_state["_map_run_num"] = run_num + 1
-
-    if sector_changed or run_num < 2:
-        all_coords = [c for p in padres_vis for c in p["coords"]]
-        all_coords += [h["coords"][0] for h in hijos_vis]
-        if all_coords:
-            lats = [c[0] for c in all_coords]
-            lons = [c[1] for c in all_coords]
-            bounds = [[min(lats), min(lons)], [max(lats), max(lons)]]
-            m.fit_bounds(bounds, padding=(30, 30))
-            st.session_state["map_center"] = [
-                (bounds[0][0] + bounds[1][0]) / 2,
-                (bounds[0][1] + bounds[1][1]) / 2,
-            ]
-            span = max(bounds[1][0] - bounds[0][0], bounds[1][1] - bounds[0][1])
-            st.session_state["map_zoom"] = max(12, min(int(math.log2(1125 / max(span, 0.001))), 18))
-
     output = st_folium(
         m,
         key="mapa_manizales",
@@ -266,10 +255,6 @@ def mostrar_mapa(can_edit: bool):
             st.session_state.pop("_dismissed_popup", None)
             if can_edit:
                 st.session_state["confirmar_sector_id"] = sector_id
-                hijo_match = next((h for h in hijos_vis if str(h.get("id")) == sector_id), None)
-                if hijo_match:
-                    st.session_state["map_center"] = hijo_match["coords"][0]
-                    st.session_state["map_zoom"] = 19
             else:
                 st.toast("🔒 Sin acceso de edición para hoy.", icon="🔒")
 
@@ -280,11 +265,22 @@ def mostrar_mapa(can_edit: bool):
     if st.session_state.get("user", {}).get("role") == "admin":
         st.markdown("---")
         if st.button("🔄 Reset: poner todo PENDIENTE", type="secondary"):
-            for h in hijos:
-                repo.guardar(str(h["id"]), "pendiente")
-            st.session_state["_force_estado_reload"] = True
-            st.toast("Todos los sectores fueron puestos en PENDIENTE.")
-            st.rerun(scope="fragment")
+            st.session_state["_confirm_reset"] = True
+        if st.session_state.get("_confirm_reset"):
+            st.warning("¿Seguro que quieres poner **todos** los sectores en PENDIENTE? Esta acción no se puede deshacer.")
+            col_yes, col_no = st.columns(2)
+            with col_yes:
+                if st.button("✅ Sí, resetear", type="primary", use_container_width=True):
+                    for h in hijos:
+                        repo.guardar(str(h["id"]), "pendiente")
+                    st.session_state.pop("_confirm_reset", None)
+                    st.session_state["_force_estado_reload"] = True
+                    st.toast("Todos los sectores fueron puestos en PENDIENTE.")
+                    st.rerun(scope="fragment")
+            with col_no:
+                if st.button("✖ Cancelar", use_container_width=True):
+                    st.session_state.pop("_confirm_reset", None)
+                    st.rerun(scope="fragment")
 
 
 # =============================================================================
@@ -294,6 +290,18 @@ def mostrar_mapa(can_edit: bool):
 def pagina_admin():
     auth_repo = get_auth_repo()
     auth_repo.cleanup_expired_access()
+
+    _, padres, hijos = inicializar_datos()
+    sector_set = set()
+    for p in padres:
+        s = p.get("sector_type", "")
+        if s:
+            sector_set.add(str(s))
+    for h in hijos:
+        s = h.get("sector", "")
+        if s:
+            sector_set.add(str(s))
+    all_sectors = sorted(sector_set, key=str)
 
     st.subheader("⚙️ Administración")
     tab_users, tab_access = st.tabs(["👥 Usuarios", "📅 Acceso"])
@@ -363,10 +371,11 @@ def pagina_admin():
                 for w in windows:
                     col_w, col_wdel = st.columns([4, 1])
                     with col_w:
+                        sector_w = str(w.get("sector") or "").replace("_", " ").title() or "—"
                         note = f" — {w['note']}" if w.get("note") else ""
                         active = w["start_date"] <= today_str <= w["end_date"]
                         status = "🟢" if active else "🔵"
-                        st.markdown(f"{status} `{w['start_date']}` → `{w['end_date']}`{note}")
+                        st.markdown(f"{status} **{sector_w}** · `{w['start_date']}` → `{w['end_date']}`{note}")
                     with col_wdel:
                         if st.button("🗑", key=f"del_win_{w['id']}"):
                             auth_repo.delete_access(w["id"])
@@ -378,6 +387,12 @@ def pagina_admin():
             st.markdown("**Asignar nuevo acceso**")
             with st.form("form_acceso", clear_on_submit=True):
                 today = date.today()
+                sector_input = st.selectbox(
+                    "Sector",
+                    all_sectors,
+                    format_func=lambda s: str(s).replace("_", " ").title(),
+                    key="access_sector",
+                )
                 date_range = st.date_input(
                     "Rango de fechas",
                     value=(today, today),
@@ -387,7 +402,7 @@ def pagina_admin():
                 note_input = st.text_input("Nota (opcional)")
                 if st.form_submit_button("Asignar acceso", use_container_width=True):
                     if isinstance(date_range, (list, tuple)) and len(date_range) == 2:
-                        auth_repo.add_access(uid, date_range[0], date_range[1], note_input)
+                        auth_repo.add_access(uid, date_range[0], date_range[1], str(sector_input), note_input)
                         st.success(f"Acceso asignado a **{selected_user['username']}**.")
                         st.rerun()
                     else:
@@ -443,7 +458,11 @@ def main():
         return
 
     is_admin = user["role"] == "admin"
-    can_edit = is_admin or auth_repo.can_edit_today(user["id"])
+    if is_admin:
+        can_edit = True
+        user_sector = ""
+    else:
+        can_edit, user_sector = auth_repo.get_today_access(user["id"])
 
     # Top bar
     col_title, col_info, col_out = st.columns([5, 3, 1])
@@ -477,7 +496,7 @@ def main():
         page = "🗺️ Mapa"
 
     if page == "🗺️ Mapa":
-        mostrar_mapa(can_edit)
+        mostrar_mapa(can_edit, user_sector)
     else:
         pagina_admin()
 
