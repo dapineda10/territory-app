@@ -54,9 +54,6 @@ def inicializar_datos():
     repo = EstadoRepository(get_supabase())
     ruta = os.path.join("data", "zonas_manizales.geojson")
     padres, hijos = cargar_geometrias(ruta)
-    for i, h in enumerate(hijos):
-        if "id" not in h or not h["id"]:
-            h["id"] = str(i)
     return repo, padres, hijos
 
 
@@ -64,13 +61,32 @@ def inicializar_datos():
 # HELPERS
 # =============================================================================
 
-def get_apple_svg(color_principal, color_oscuro):
+def get_apple_svg(color_principal, color_oscuro, label=""):
+    if label:
+        char_count = len(str(label))
+        rect_w = 8 + char_count * 5.5
+        rect_x = 20 - rect_w / 2
+        label_el = (
+            f'<rect x="{rect_x:.1f}" y="17" width="{rect_w:.1f}" height="10" rx="3" ry="3" fill="white" fill-opacity="0.85"/>'
+            f'<text x="20" y="25.5" text-anchor="middle" font-size="9.5" font-weight="bold" font-family="Arial,sans-serif" fill="#111">{label}</text>'
+        )
+    else:
+        label_el = ""
     return f"""
-    <svg width="36px" height="36px" viewBox="-1 -1 42.96 42.96" xmlns="http://www.w3.org/2000/svg">
+    <svg width="44px" height="44px" viewBox="-1 -1 42.96 42.96" xmlns="http://www.w3.org/2000/svg">
         <path d="M14.384 11.484c-2.686 0.285 -4.759 2.983 -5.574 4.623 -3.764 7.58 5.965 19.618 9.497 18.815 0.539 -0.122 1.097 -0.571 2.329 -0.687 1.711 -0.161 2.629 0.52 3.662 0.639 2.25 0.26 4.285 -2.24 5.71 -3.99 1.608 -1.975 6.286 -7.719 4.507 -13.864 -0.289 -0.997 -1.026 -3.542 -3.423 -4.937 -0.155 -0.091 -2.989 -1.687 -5.649 -0.689 -1.006 0.377 -1.379 0.901 -2.629 1.088 -1.152 0.172 -1.986 -0.091 -2.901 -0.317 -1.482 -0.363 -4.055 -0.836 -5.529 -0.68z"
               fill="{color_principal}" stroke="#000" stroke-width="0.8"/>
         <path d="M30.072 25.371c-0.733 3.297 -3.716 6.954 -6.549 7.077 -1.046 0.045 -1.718 -0.408 -3.22 -0.069 -1.998 0.449 -3.743 1.908 -3.546 2.461 0.136 0.377 1.168 0.324 1.269 0.317 1.159 -0.068 1.458 -0.816 2.363 -0.922 1.027 -0.12 1.464 0.749 2.473 1.088 1.709 0.574 3.633 -0.855 4.707 -1.653 3.762 -2.794 8.822 -10.056 6.812 -17.131 -0.354 -1.244 -1.002 -3.406 -3.08 -4.747 -1.756 -1.133 -4.617 -1.729 -5.578 -0.634 -1.792 2.037 5.827 7.573 4.351 14.214"
               fill="{color_oscuro}" stroke="#000" stroke-width="0.5"/>
+        {label_el}
+    </svg>"""
+
+
+def get_next_svg():
+    return """<svg width="30px" height="46px" viewBox="0 0 30 46" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="15" cy="44" rx="7" ry="2" fill="rgba(0,0,0,0.25)"/>
+        <path d="M12,0 L18,0 L18,26 L25,26 L15,43 L5,26 L12,26 Z"
+              fill="#FFD700" stroke="#B8860B" stroke-width="1.8" stroke-linejoin="round"/>
     </svg>"""
 
 
@@ -91,8 +107,25 @@ def lighten_color(hex_color, amount=0.5):
 # DIALOG
 # =============================================================================
 
+@st.dialog("🔄 Reset de sector")
+def dialogo_reset(sector_name, hijos_vis, repo):
+    st.markdown(f"¿Seguro que quieres poner el sector **{sector_name}** en pendiente?")
+    st.markdown("Esta acción no se puede deshacer.")
+    col_yes, col_no = st.columns(2)
+    with col_yes:
+        if st.button("✅ Sí, resetear", type="primary", use_container_width=True):
+            for h in hijos_vis:
+                repo.guardar(str(h["id"]), "pendiente")
+            st.session_state["_force_estado_reload"] = True
+            st.toast(f"El sector {sector_name} fue puesto en pendiente.")
+            st.rerun()
+    with col_no:
+        if st.button("✖ Cancelar", use_container_width=True):
+            st.rerun()
+
+
 @st.dialog("🍏 Cambiar estado")
-def dialogo_toggle(sector_id, estado_actual, repo):
+def dialogo_toggle(sector_id, estado_actual, repo, sector, es_siguiente=False):
     nuevo_estado = "completado" if estado_actual == "pendiente" else "pendiente"
     color = "green" if estado_actual == "completado" else "red"
     st.markdown(f"**Manzana {sector_id}**")
@@ -111,6 +144,19 @@ def dialogo_toggle(sector_id, estado_actual, repo):
             st.session_state["_dismissed_popup"] = sector_id
             del st.session_state["confirmar_sector_id"]
             st.rerun()
+    st.markdown("---")
+    if es_siguiente:
+        if st.button("🗑 Quitar indicador ▼", use_container_width=True):
+            repo.guardar_siguiente(sector, None)
+            st.session_state["_dismissed_popup"] = sector_id
+            del st.session_state["confirmar_sector_id"]
+            st.rerun()
+    else:
+        if st.button("📍 Marcar como siguiente ▼", use_container_width=True):
+            repo.guardar_siguiente(sector, sector_id)
+            st.session_state["_dismissed_popup"] = sector_id
+            del st.session_state["confirmar_sector_id"]
+            st.rerun()
 
 
 # =============================================================================
@@ -121,6 +167,7 @@ def dialogo_toggle(sector_id, estado_actual, repo):
 def mostrar_mapa(can_edit: bool, user_sector: str = ""):
     repo, padres, hijos = inicializar_datos()
     estados = repo.obtener_estados()
+    siguientes = repo.obtener_todos_siguientes()
     if "_force_estado_reload" in st.session_state:
         del st.session_state["_force_estado_reload"]
 
@@ -135,8 +182,11 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
         if s:
             sector_set.add(s)
     all_sectors = sorted({str(s) for s in sector_set}, key=str)
+    ALL_KEY = "__all__"
 
     def sector_label(key):
+        if key == ALL_KEY:
+            return "Todos los sectores"
         return str(key).replace("_", " ").title()
 
     is_admin = st.session_state.get("user", {}).get("role") == "admin"
@@ -144,7 +194,7 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
     if is_admin:
         selected_sector = st.selectbox(
             "Sector",
-            all_sectors,
+            [ALL_KEY] + all_sectors,
             format_func=sector_label,
             key="sector_selector",
             label_visibility="collapsed",
@@ -160,8 +210,12 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
     if sector_changed:
         st.session_state["_prev_sector"] = selected_sector
 
-    hijos_vis = [h for h in hijos if str(h.get("sector", "")) == selected_sector]
-    padres_vis = [p for p in padres if str(p.get("sector_type", "")) == selected_sector]
+    if selected_sector == ALL_KEY:
+        hijos_vis = hijos
+        padres_vis = padres
+    else:
+        hijos_vis = [h for h in hijos if str(h.get("sector", "")) == selected_sector]
+        padres_vis = [p for p in padres if str(p.get("sector_type", "")) == selected_sector]
 
     total = len(hijos_vis)
     completadas = sum(1 for h in hijos_vis if estados.get(str(h.get("id"))) == "completado")
@@ -230,15 +284,27 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
             continue
         estado = estados.get(sector_id, "pendiente")
         color1, color2 = ("#28a745", "#1e7e34") if estado == "completado" else ("#FA1919", "#C40000")
-        svg = get_apple_svg(color1, color2)
+        label = str(hijo["codigo_manzana"]) if hijo.get("codigo_manzana") is not None else ""
+        svg = get_apple_svg(color1, color2, label)
         folium.Marker(
             location=hijo["coords"][0],
             popup=folium.Popup(str(sector_id), max_width=200),
             icon=DivIcon(
                 html=f'<div id="{sector_id}" style="cursor:pointer;filter:drop-shadow(0px 3px 3px rgba(0,0,0,0.4));">{svg}</div>',
-                icon_anchor=(18, 18),
+                icon_anchor=(22, 22),
             ),
         ).add_to(m)
+
+    for hijo in hijos_vis:
+        hijo_sector = str(hijo.get("sector", ""))
+        if siguientes.get(hijo_sector) == str(hijo.get("id")):
+            folium.Marker(
+                location=hijo["coords"][0],
+                icon=DivIcon(
+                    html=f'<div style="pointer-events:none;filter:drop-shadow(0px 2px 5px rgba(0,0,0,0.5));">{get_next_svg()}</div>',
+                    icon_anchor=(15, 43),
+                ),
+            ).add_to(m)
 
     output = st_folium(
         m,
@@ -260,27 +326,13 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
 
     sector_id = st.session_state.get("confirmar_sector_id")
     if sector_id and any(str(h.get("id")) == sector_id for h in hijos_vis):
-        dialogo_toggle(sector_id, estados.get(sector_id, "pendiente"), repo)
+        hijo_sector = next((str(h.get("sector", "")) for h in hijos_vis if str(h.get("id")) == sector_id), "")
+        dialogo_toggle(sector_id, estados.get(sector_id, "pendiente"), repo, hijo_sector, es_siguiente=(siguientes.get(hijo_sector) == sector_id))
 
-    if st.session_state.get("user", {}).get("role") == "admin":
+    if st.session_state.get("user", {}).get("role") == "admin" and selected_sector != ALL_KEY:
         st.markdown("---")
         if st.button("🔄 Reset: poner todo PENDIENTE", type="secondary"):
-            st.session_state["_confirm_reset"] = True
-        if st.session_state.get("_confirm_reset"):
-            st.warning("¿Seguro que quieres poner **todos** los sectores en PENDIENTE? Esta acción no se puede deshacer.")
-            col_yes, col_no = st.columns(2)
-            with col_yes:
-                if st.button("✅ Sí, resetear", type="primary", use_container_width=True):
-                    for h in hijos:
-                        repo.guardar(str(h["id"]), "pendiente")
-                    st.session_state.pop("_confirm_reset", None)
-                    st.session_state["_force_estado_reload"] = True
-                    st.toast("Todos los sectores fueron puestos en PENDIENTE.")
-                    st.rerun(scope="fragment")
-            with col_no:
-                if st.button("✖ Cancelar", use_container_width=True):
-                    st.session_state.pop("_confirm_reset", None)
-                    st.rerun(scope="fragment")
+            dialogo_reset(sector_label(selected_sector), hijos_vis, repo)
 
 
 # =============================================================================

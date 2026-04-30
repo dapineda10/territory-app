@@ -52,14 +52,16 @@ def cargar_geometrias(ruta_archivo):
                 break
 
         if tipo_geo == "Polygon":
-            if "codigo_manzana" in props and props["codigo_manzana"] not in (None, ""):
+            feature_id = feature.get("id")
+            if feature_id not in (None, ""):
                 coords_raw = geom['coordinates'][0]
                 coords_listas = [[p[1], p[0]] for p in coords_raw]
                 hijo = {
                     "nombre": nombre_sector,
                     "coords": coords_listas,
-                    "id": str(props["codigo_manzana"]),
+                    "id": str(feature_id),
                     "sector": props.get("sector", ""),
+                    "codigo_manzana": props.get("codigo_manzana"),
                 }
                 hijos.append(hijo)
         elif tipo_geo == "LineString":

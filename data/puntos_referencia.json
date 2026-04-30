@@ -1,10 +1,10 @@
 [
     {
-        "nombre": "Salón del Reino", 
+        "nombre": "Salida salón del Reino", 
         "lat": 5.087537003998918, 
         "lon": -75.48755647048758, 
         "icon": "info-sign", 
-        "color": "blue"
+        "color": "green"
     },
     {
         "nombre": "Jardín infantil de san sebastián", 
@@ -35,11 +35,11 @@
         "color": "blue"
     },
     {
-        "nombre": "Casa del hermano Ovidio", 
+        "nombre": "Salida casa del hermano Ovidio", 
         "lat": 5.083072932505857, 
         "lon": -75.48921289844374, 
         "icon": "info-sign", 
-        "color": "blue"
+        "color": "green"
     },
     {
         "nombre": "Casa hermana Diana Torres", 
@@ -49,23 +49,65 @@
         "color": "blue"
     },
     {
-        "nombre": "Casa hermana Diana Torres", 
+        "nombre": "Salida hermano Mequisedec", 
         "lat": 5.084275938895473, 
         "lon": -75.48932051932658, 
         "icon": "info-sign", 
-        "color": "blue"
+        "color": "green"
     },
     {
-        "nombre": "Casa hermana Diana Torres", 
+        "nombre": "Casa hermanos Castro", 
         "lat": 5.089538215431745, 
         "lon": -75.48805960612421, 
         "icon": "info-sign", 
         "color": "blue"
     },
     {
-        "nombre": "Casa hermana Diana Torres", 
+        "nombre": "Casa hermano Delio", 
         "lat": 5.078609332911171, 
         "lon": -75.49087594166457, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Casa hermano Beatriz Monsalve", 
+        "lat": 5.088257769569452, 
+        "lon": -75.48735567836745, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Salida familia Cardona (Albeiro)", 
+        "lat": 5.080389250161119, 
+        "lon": -75.48974497492999, 
+        "icon": "info-sign", 
+        "color": "green"
+    },
+    {
+        "nombre": "Casa familia Pineda", 
+        "lat": 5.078679865729583, 
+        "lon": -75.4902966777041, 
+        "icon": "info-sign", 
+        "color": "green"
+    },
+    {
+        "nombre": "Casa hermana Luz", 
+        "lat": 5.077760089694266, 
+        "lon": -75.49053612929934, 
+        "icon": "info-sign", 
+        "color": "green"
+    },
+    {
+        "nombre": "Casa hermana María Evangelina", 
+        "lat": 5.082356277774977, 
+        "lon": -75.49035695074654, 
+        "icon": "info-sign", 
+        "color": "blue"
+    },
+    {
+        "nombre": "Zona volquetas", 
+        "lat": 5.081718816370213, 
+        "lon": -75.49108503703022, 
         "icon": "info-sign", 
         "color": "blue"
     }
