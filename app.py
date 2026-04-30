@@ -253,7 +253,7 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
             folium.Marker(
                 location=[punto["lat"], punto["lon"]],
                 popup=punto["nombre"],
-                icon=folium.Icon(color=punto.get("color", "blue"), icon=punto.get("icon", "info-sign")),
+                icon=folium.Icon(color=punto.get("color", "blue"), icon=punto.get("icon", "info-sign"), prefix=punto.get("prefix", "glyphicon")),
             ).add_to(m)
 
     categoria_por_padre = []

@@ -3,7 +3,7 @@
         "nombre": "Salida salón del Reino", 
         "lat": 5.087537003998918, 
         "lon": -75.48755647048758, 
-        "icon": "info-sign", 
+        "icon": "log-out", 
         "color": "green"
     },
     {
@@ -38,7 +38,7 @@
         "nombre": "Salida casa del hermano Ovidio", 
         "lat": 5.083072932505857, 
         "lon": -75.48921289844374, 
-        "icon": "info-sign", 
+        "icon": "log-out", 
         "color": "green"
     },
     {
@@ -52,7 +52,7 @@
         "nombre": "Salida hermano Mequisedec", 
         "lat": 5.084275938895473, 
         "lon": -75.48932051932658, 
-        "icon": "info-sign", 
+        "icon": "log-out", 
         "color": "green"
     },
     {
@@ -77,10 +77,10 @@
         "color": "blue"
     },
     {
-        "nombre": "Salida familia Cardona (Albeiro)", 
-        "lat": 5.080389250161119, 
-        "lon": -75.48974497492999, 
-        "icon": "info-sign", 
+        "nombre": "Salida familia Cardona (Albeiro)",
+        "lat": 5.080389250161119,
+        "lon": -75.48974497492999,
+        "icon": "log-out",
         "color": "green"
     },
     {
@@ -88,14 +88,14 @@
         "lat": 5.078679865729583, 
         "lon": -75.4902966777041, 
         "icon": "info-sign", 
-        "color": "green"
+        "color": "blue"
     },
     {
         "nombre": "Casa hermana Luz", 
         "lat": 5.077760089694266, 
         "lon": -75.49053612929934, 
         "icon": "info-sign", 
-        "color": "green"
+        "color": "blue"
     },
     {
         "nombre": "Casa hermana María Evangelina", 
