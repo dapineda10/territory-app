@@ -239,7 +239,7 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
     zoom = st.session_state.get("map_zoom", 17)
     m = folium.Map(location=center, zoom_start=zoom, max_zoom=22, tiles=None, prefer_canvas=True)
     m.get_root().html.add_child(folium.Element(
-        "<style>.leaflet-popup { opacity: 0 !important; pointer-events: none !important; height: 0 !important; overflow: hidden !important; }</style>"
+        "<style>.leaflet-popup { opacity: 0 !important; pointer-events: none !important; }</style>"
     ))
     folium.TileLayer(
         tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
