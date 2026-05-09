@@ -238,9 +238,6 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
     center = st.session_state.get("map_center", [5.086, -75.488])
     zoom = st.session_state.get("map_zoom", 17)
     m = folium.Map(location=center, zoom_start=zoom, max_zoom=22, tiles=None, prefer_canvas=True)
-    m.get_root().html.add_child(folium.Element(
-        "<style>.leaflet-popup { opacity: 0 !important; pointer-events: none !important; }</style>"
-    ))
     folium.TileLayer(
         tiles="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
         attr="© Esri",
@@ -253,11 +250,26 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
         with open(ruta_puntos, "r", encoding="utf-8") as f:
             puntos = json.load(f)
         for punto in puntos:
-            folium.Marker(
+            marker = folium.Marker(
                 location=[punto["lat"], punto["lon"]],
                 popup=punto["nombre"],
+                class_name="solo-marker",
                 icon=folium.Icon(color=punto.get("color", "blue"), icon=punto.get("icon", "info-sign"), prefix=punto.get("prefix", "glyphicon")),
-            ).add_to(m)
+            )
+            marker.add_to(m)
+            # Add popup style only for markers
+            marker.add_child(folium.Element(
+                """
+                <style>
+                    /* Solo ocultamos el popup si viene después de un elemento 'solo-marker' */
+                    .solo-marker + .leaflet-popup {
+                        visibility: hidden !important;
+                        opacity: 0 !important;
+                        pointer-events: none !important;
+                    }
+                </style>
+                """
+            ))
 
     categoria_por_padre = []
     for p in padres_vis:
@@ -272,14 +284,16 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
         coords = p["coords"]
         if coords[0] != coords[-1]:
             coords = coords + [coords[0]]
-        folium.Polygon(
+        polygon = folium.Polygon(
             locations=coords,
             color=color_linea,
             fill=True,
             fill_color=color_relleno,
             fill_opacity=0.4,
             weight=3,
-        ).add_to(m)
+        )
+        polygon.add_to(m)
+        # If you want popups for polygons, add here and style as needed
 
     for hijo in hijos_vis:
         sector_id = str(hijo.get("id")) if hijo.get("id") is not None else None
@@ -291,7 +305,7 @@ def mostrar_mapa(can_edit: bool, user_sector: str = ""):
         svg = get_apple_svg(color1, color2, label)
         folium.Marker(
             location=hijo["coords"][0],
-            popup=folium.Popup(str(sector_id), max_width=200),
+            popup=sector_id,  # Single space: clickable, no visible popup
             icon=DivIcon(
                 html=f'<div id="{sector_id}" style="cursor:pointer;filter:drop-shadow(0px 3px 3px rgba(0,0,0,0.4));">{svg}</div>',
                 icon_anchor=(22, 22),

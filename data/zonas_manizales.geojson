@@ -876,7 +876,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 200,
+        "codigo_manzana": 9,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -1151,7 +1151,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 201,
+        "codigo_manzana": 10,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -1426,7 +1426,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 202,
+        "codigo_manzana": 11,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -1701,7 +1701,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 203,
+        "codigo_manzana": 12,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -1976,7 +1976,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 203,
+        "codigo_manzana": 13,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -2251,7 +2251,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 204,
+        "codigo_manzana": 14,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -2526,7 +2526,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 205,
+        "codigo_manzana": 8,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -2801,7 +2801,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 206,
+        "codigo_manzana": 7,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -3076,7 +3076,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 208,
+        "codigo_manzana": 5,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -3351,7 +3351,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 209,
+        "codigo_manzana": 6,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -3901,7 +3901,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 2,
+        "codigo_manzana": 4,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -4451,7 +4451,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 4,
+        "codigo_manzana": 2,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -4726,7 +4726,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 5,
+        "codigo_manzana": 1,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -5001,7 +5001,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 6,
+        "codigo_manzana": 15,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -5276,7 +5276,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 7,
+        "codigo_manzana": 16,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -5551,7 +5551,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 8,
+        "codigo_manzana": 17,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -5826,7 +5826,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 9,
+        "codigo_manzana": 18,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -6101,7 +6101,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 10,
+        "codigo_manzana": 19,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -6376,7 +6376,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 11,
+        "codigo_manzana": 20,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -6651,7 +6651,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 12,
+        "codigo_manzana": 21,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -16863,7 +16863,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 49,
+        "codigo_manzana": 28,
         "sector": "bengala"
       },
       "geometry": {
@@ -17138,7 +17138,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 50,
+        "codigo_manzana": 29,
         "sector": "bengala"
       },
       "geometry": {
@@ -17413,7 +17413,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 51,
+        "codigo_manzana": 30,
         "sector": "bengala"
       },
       "geometry": {
@@ -17688,7 +17688,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 52,
+        "codigo_manzana": 31,
         "sector": "bengala"
       },
       "geometry": {
@@ -17963,7 +17963,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 53,
+        "codigo_manzana": 32,
         "sector": "bengala"
       },
       "geometry": {
@@ -18238,7 +18238,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 54,
+        "codigo_manzana": 12,
         "sector": "bengala"
       },
       "geometry": {
@@ -18513,7 +18513,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 55,
+        "codigo_manzana": 13,
         "sector": "bengala"
       },
       "geometry": {
@@ -18788,7 +18788,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 56,
+        "codigo_manzana": 14,
         "sector": "bengala"
       },
       "geometry": {
@@ -19063,7 +19063,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 57,
+        "codigo_manzana": 15,
         "sector": "bengala"
       },
       "geometry": {
@@ -19338,7 +19338,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 58,
+        "codigo_manzana": 16,
         "sector": "bengala"
       },
       "geometry": {
@@ -19613,7 +19613,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 59,
+        "codigo_manzana": 17,
         "sector": "bengala"
       },
       "geometry": {
@@ -19962,7 +19962,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 60,
+        "codigo_manzana": 18,
         "sector": "bengala"
       },
       "geometry": {
@@ -20237,7 +20237,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 61,
+        "codigo_manzana": 19,
         "sector": "bengala"
       },
       "geometry": {
@@ -20512,7 +20512,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 62,
+        "codigo_manzana": 20,
         "sector": "bengala"
       },
       "geometry": {
@@ -20787,7 +20787,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 62,
+        "codigo_manzana": 21,
         "sector": "bengala"
       },
       "geometry": {
@@ -21062,7 +21062,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 63,
+        "codigo_manzana": 22,
         "sector": "bengala"
       },
       "geometry": {
@@ -21337,7 +21337,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 64,
+        "codigo_manzana": 23,
         "sector": "bengala"
       },
       "geometry": {
@@ -21612,7 +21612,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 65,
+        "codigo_manzana": 24,
         "sector": "bengala"
       },
       "geometry": {
@@ -21919,7 +21919,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 66,
+        "codigo_manzana": 25,
         "sector": "bengala"
       },
       "geometry": {
@@ -22194,7 +22194,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 67,
+        "codigo_manzana": 26,
         "sector": "bengala"
       },
       "geometry": {
@@ -22469,7 +22469,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 68,
+        "codigo_manzana": 27,
         "sector": "bengala"
       },
       "geometry": {
@@ -29110,7 +29110,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 92,
+        "codigo_manzana": 11,
         "sector": "bengala"
       },
       "geometry": {
@@ -29385,7 +29385,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 93,
+        "codigo_manzana": 10,
         "sector": "bengala"
       },
       "geometry": {
@@ -29660,7 +29660,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 94,
+        "codigo_manzana": 9,
         "sector": "bengala"
       },
       "geometry": {
@@ -29935,7 +29935,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 95,
+        "codigo_manzana": 8,
         "sector": "bengala"
       },
       "geometry": {
@@ -30210,7 +30210,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 96,
+        "codigo_manzana": 7,
         "sector": "bengala"
       },
       "geometry": {
@@ -30485,7 +30485,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 97,
+        "codigo_manzana": 1,
         "sector": "bengala"
       },
       "geometry": {
@@ -30760,7 +30760,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 98,
+        "codigo_manzana": 2,
         "sector": "bengala"
       },
       "geometry": {
@@ -31035,7 +31035,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 99,
+        "codigo_manzana": 3,
         "sector": "bengala"
       },
       "geometry": {
@@ -31310,7 +31310,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 100,
+        "codigo_manzana": 4,
         "sector": "bengala"
       },
       "geometry": {
@@ -31585,7 +31585,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 101,
+        "codigo_manzana": 5,
         "sector": "bengala"
       },
       "geometry": {
@@ -31924,7 +31924,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 102,
+        "codigo_manzana": 6,
         "sector": "bengala"
       },
       "geometry": {
@@ -32974,7 +32974,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 304,
+        "codigo_manzana": 25,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -33244,12 +33244,12 @@
           ]
         ]
       },
-      "id": 157
+      "id": 145
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 302,
+        "codigo_manzana": 24,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -33519,12 +33519,12 @@
           ]
         ]
       },
-      "id": 158
+      "id": 146
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 301,
+        "codigo_manzana": 23,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -33794,12 +33794,12 @@
           ]
         ]
       },
-      "id": 159
+      "id": 147
     },
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 300,
+        "codigo_manzana": 22,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -34069,7 +34069,7 @@
           ]
         ]
       },
-      "id": 160
+      "id": 148
     },
     {
       "type": "Feature",
@@ -37375,7 +37375,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 300
+        "codigo_manzana": 31
       },
       "geometry": {
         "type": "Polygon",
@@ -37650,7 +37650,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 301
+        "codigo_manzana": 30
       },
       "geometry": {
         "type": "Polygon",
@@ -37925,7 +37925,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 708
+        "codigo_manzana": 22
       },
       "geometry": {
         "type": "Polygon",
@@ -38200,7 +38200,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 708
+        "codigo_manzana": 23
       },
       "geometry": {
         "type": "Polygon",
@@ -38475,7 +38475,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 706
+        "codigo_manzana": 24
       },
       "geometry": {
         "type": "Polygon",
@@ -38750,7 +38750,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 705
+        "codigo_manzana": 26
       },
       "geometry": {
         "type": "Polygon",
@@ -39025,7 +39025,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 707
+        "codigo_manzana": 25
       },
       "geometry": {
         "type": "Polygon",
@@ -39300,7 +39300,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 700
+        "codigo_manzana": 27
       },
       "geometry": {
         "type": "Polygon",
@@ -39569,7 +39569,7 @@
           ]
         ]
       },
-      "id": 190
+      "id": 168
     },
     {
       "type": "Feature",
@@ -40950,7 +40950,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 8
+        "codigo_manzana": 4
       },
       "geometry": {
         "type": "Polygon",
@@ -41225,7 +41225,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 7
+        "codigo_manzana": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -41775,7 +41775,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 5
+        "codigo_manzana": 7
       },
       "geometry": {
         "type": "Polygon",
@@ -42050,7 +42050,7 @@
       "type": "Feature",
       "properties": {
         "sector": "san_sebastian",
-        "codigo_manzana": 4
+        "codigo_manzana": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -43699,7 +43699,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 17,
+        "codigo_manzana": 14,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -44249,7 +44249,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 15,
+        "codigo_manzana": 16,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -44524,7 +44524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 14,
+        "codigo_manzana": 17,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -44799,7 +44799,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 500,
+        "codigo_manzana": 28,
         "sector": "san_sebastian"
       },
       "geometry": {
@@ -45074,7 +45074,7 @@
     {
       "type": "Feature",
       "properties": {
-        "codigo_manzana": 501,
+        "codigo_manzana": 29,
         "sector": "san_sebastian"
       },
       "geometry": {
