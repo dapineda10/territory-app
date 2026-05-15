@@ -11,7 +11,7 @@ class AuthRepository:
 
     def _init_admin(self):
         response = self.client.table("users").select("id").eq("username", "admin").execute()
-        if not response.data:
+        if not response.data: 
             pw = bcrypt.hashpw(b"admin123", bcrypt.gensalt()).decode()
             self.client.table("users").insert({
                 "username": "admin",
